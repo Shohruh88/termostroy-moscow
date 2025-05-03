@@ -143,7 +143,7 @@
                 <span class="block text-white">Building</span>
                 <span class="block text-white text-xl md:text-3xl">Call</span>
                 <div class="mt-5">
-                  <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
+                  <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="{{route('contact')}}">
                         administrator
                   </a>
                 </div>
@@ -162,11 +162,11 @@
               <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-moscow_night bg-cover bg-center bg-no-repeat">
                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                   <span class="block text-white">Grumpy</span>
-                  <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span>
+                  {{-- <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span> --}}
                   <div class="mt-5">
-                    <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
+                    {{-- <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
                       Read Case Studies
-                    </a>
+                    </a> --}}
                   </div>
                 </div>
               </div>
