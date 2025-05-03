@@ -131,12 +131,15 @@
         }' class="relative">
         <div class="hs-carousel relative overflow-hidden w-full h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] bg-gray-100 rounded-2xl dark:bg-neutral-800">
           <div class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
+           
             <!-- Item -->
             <div class="hs-carousel-slide">
-              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-[url('public/images/moscow-city.jpg')] bg-cover bg-center bg-no-repeat">
+              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col ] bg-cover bg-center bg-no-repeat">
+                
                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-                  <span class="block text-white">Nike React</span>
-                  <span class="block text-white text-xl md:text-3xl">Rewriting sport's playbook for billions of athletes</span>
+                    <img class="" src="/images/moscow-city" alt="">
+                  <span class="block text-white">Moscow city</span>
+                  <span class="block text-white text-xl md:text-3xl">Moscow city</span>
                   <div class="mt-5">
                     <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
                       Read Case Studies
@@ -148,24 +151,12 @@
             <!-- End Item -->
 
             <!-- Item -->
-            <div class="hs-carousel-slide">
-              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-[url('https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
-                <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-                  <span class="block text-white">CoolApps</span>
-                  <span class="block text-white text-xl md:text-3xl">From mobile apps to gaming consoles</span>
-                  <div class="mt-5">
-                    <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
-                      Read Case Studies
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
             <!-- End Item -->
 
             <!-- Item -->
             <div class="hs-carousel-slide">
-              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-[url('https://images.unsplash.com/photo-1629666451094-8908989cae90?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
+              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-[url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fmoscow%2F&psig=AOvVaw2k3MAu1eXoGsxw9l8IhLE2&ust=1746347622354000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiF8P_xho0DFQAAAAAdAAAAABAE')] bg-cover bg-center bg-no-repeat">
                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                   <span class="block text-white">Grumpy</span>
                   <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span>
@@ -271,7 +262,7 @@
         <!-- Card -->
         <a class="group flex flex-col focus:outline-hidden" href="#">
           <div class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
-            <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blog Image">
+            <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="images/page_2.png" alt="Blog Image">
           </div>
 
           <div class="pt-4">
@@ -300,7 +291,7 @@
         <!-- Card -->
         <a class="group flex flex-col focus:outline-hidden" href="#">
           <div class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
-            <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blog Image">
+            <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="images/moscow-city_night.jpg" alt="Blog Image">
           </div>
 
           <div class="pt-4">
@@ -352,7 +343,7 @@
         <!-- Card -->
         <a class="group flex flex-col focus:outline-hidden" href="#">
           <div class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
-            <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="https://images.unsplash.com/photo-1528291954423-c0c71c12baeb?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blog Image">
+            <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="images/page_6.png" alt="Blog Image">
           </div>
 
           <div class="pt-4">
