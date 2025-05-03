@@ -104,7 +104,7 @@
             <a class="relative inline-block text-black focus:outline-hidden before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 dark:text-white" href="#" aria-current="page">Work</a>
           </div>
           <div>
-            <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300" href="#">Services</a>
+            <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300" href="{{route('service')}}">Services</a>
           </div>
           <div>
             <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300" href="#">About</a>
@@ -133,21 +133,21 @@
           <div class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
            
             <!-- Item -->
-            <div class="hs-carousel-slide">
-              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col ] bg-cover bg-center bg-no-repeat">
-                
-                <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-                    <img class="" src="{{asset('images/moscow-city.jpg')}} " alt="">
-                  <span class="block text-white">Moscow city</span>
-                  <span class="block text-white text-xl md:text-3xl">Moscow city</span>
-                  <div class="mt-5">
-                    <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
-                      Read Case Studies
-                    </a>
-                  </div>
+           <!-- Item -->
+           <div class="hs-carousel-slide">
+            <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-moscow bg-cover bg-center bg-no-repeat">
+              <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
+                <span class="block text-white">Grumpy</span>
+                <span class="block text-white text-xl md:text-3xl">Call</span>
+                <div class="mt-5">
+                  <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
+                        administrator
+                  </a>
                 </div>
               </div>
             </div>
+          </div>
+          <!-- End Item -->
             <!-- End Item -->
 
             <!-- Item -->
@@ -502,6 +502,8 @@
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
+
+  
   <!-- ========== FOOTER ========== -->
   <footer class="mt-auto border-t md:border-t-0 border-gray-200 dark:border-neutral-700">
     <div class="w-full max-w-7xl py-10 md:pt-0 px-4 sm:px-6 lg:px-8 mx-auto">
