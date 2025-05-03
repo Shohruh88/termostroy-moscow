@@ -156,7 +156,7 @@
 
             <!-- Item -->
             <div class="hs-carousel-slide">
-              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-[url('https://building.test/images/moscow-city.jpg')] bg-cover bg-center bg-no-repeat">
+              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-moscow bg-cover bg-center bg-no-repeat">
                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                   <span class="block text-white">Grumpy</span>
                   <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span>

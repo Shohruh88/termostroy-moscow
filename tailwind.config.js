@@ -8,7 +8,11 @@ export default {
       './node_modules/preline/dist/*.js', // Preline uchun
     ],
     theme: {
-      extend: {},
+      extend: {
+        backgroundImage: {
+          'moscow': "url('/images/moscow-city.jpg')",
+        },
+      },
     },
     plugins: [],
   }
