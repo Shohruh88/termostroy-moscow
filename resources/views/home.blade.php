@@ -305,14 +305,14 @@
               Moscow city
             </p>
 
-            <div class="mt-3 flex flex-wrap gap-2">
+            {{-- <div class="mt-3 flex flex-wrap gap-2">
               <span class="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
                 Brand Strategy
               </span>
               <span class="py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
                 Visual Identity
               </span>
-            </div>
+            </div> --}}
           </div>
         </a>
         <!-- End Card -->
@@ -354,7 +354,7 @@
               Diamond Dynamics
             </h3>
             <p class="mt-1 text-gray-600 dark:text-neutral-400">
-              From cutting-edge equipment to stylish apparel
+                Группа ПСН Рязанский проспект,2
             </p>
 
             {{-- <div class="mt-3 flex flex-wrap gap-2">
@@ -437,7 +437,7 @@
         <div class="space-y-8 lg:space-y-16">
           <div>
             <h3 class="mb-5 font-semibold text-black dark:text-white">
-              Our address
+                Наш адрес
             </h3>
 
             <!-- Grid -->
@@ -450,11 +450,11 @@
 
                 <div class="grow">
                   <p class="text-sm text-gray-600 dark:text-neutral-400">
-                    United Kingdom
+                    г.Москва
                   </p>
                   <address class="mt-1 text-black not-italic dark:text-white">
-                    300 Bath Street, Tay House<br>
-                    Glasgow G2 4JR
+                    5-я Магистральная , д.12, ком.42<br>
+                    д.12, ком.42
                   </address>
                 </div>
               </div>
@@ -464,7 +464,7 @@
 
           <div>
             <h3 class="mb-5 font-semibold text-black dark:text-white">
-              Our contacts
+                Наши контакты
             </h3>
 
             <!-- Grid -->
@@ -477,11 +477,11 @@
 
                 <div class="grow">
                   <p class="text-sm text-gray-600 dark:text-neutral-400">
-                    Email us
+                    Электронный адрес
                   </p>
                   <p>
                     <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white" href="mailto:example@site.so">
-                      hello@example.so
+                        termostroy2018@yandex.ru
                     </a>
                   </p>
                 </div>
@@ -494,11 +494,11 @@
 
                 <div class="grow">
                   <p class="text-sm text-gray-600 dark:text-neutral-400">
-                    Call us
+                    Позвоните нам
                   </p>
                   <p>
                     <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white" href="mailto:example@site.so">
-                      +44 222 777-000
+                      +8 (985) 344 88 80
                     </a>
                   </p>
                 </div>
