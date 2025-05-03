@@ -137,7 +137,7 @@
               <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col ] bg-cover bg-center bg-no-repeat">
                 
                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-                    <img class="" src="/images/moscow-city" alt="">
+                    <img class="" src="{{asset('images/moscow-city.jpg')}} " alt="">
                   <span class="block text-white">Moscow city</span>
                   <span class="block text-white text-xl md:text-3xl">Moscow city</span>
                   <div class="mt-5">
@@ -156,7 +156,7 @@
 
             <!-- Item -->
             <div class="hs-carousel-slide">
-              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-[url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fmoscow%2F&psig=AOvVaw2k3MAu1eXoGsxw9l8IhLE2&ust=1746347622354000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiF8P_xho0DFQAAAAAdAAAAABAE')] bg-cover bg-center bg-no-repeat">
+              <div class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-[url('https://building.test/images/moscow-city.jpg')] bg-cover bg-center bg-no-repeat">
                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                   <span class="block text-white">Grumpy</span>
                   <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span>
