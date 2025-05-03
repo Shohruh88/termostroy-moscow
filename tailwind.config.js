@@ -11,6 +11,7 @@ export default {
       extend: {
         backgroundImage: {
           'moscow': "url('/images/moscow-city.jpg')",
+          'moscow_night': "url('/images/moscow-city_night.jpg')",
         },
       },
     },
