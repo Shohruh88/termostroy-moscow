@@ -6,7 +6,7 @@
     <!-- Bu yerga Preline Creative Agency HTML’dan olingan kodlar kiritiladi -->
   
     <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">

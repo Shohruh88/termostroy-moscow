@@ -1,3 +1,7 @@
+@extends('layouts.app')
+@section('title', 'Service')
+
+@section('content')
 <section class="text-center my-12">
     <h1 class="text-4xl font-bold">Bizning Xizmatlar</h1>
     <p class="text-gray-600 mt-2">Sizga quyidagi xizmatlarni taklif qilamiz</p>
@@ -39,3 +43,7 @@
         <li>✅ Arzon va tezkor xizmat</li>
     </ul>
 </section>
+
+
+@endsection
+
