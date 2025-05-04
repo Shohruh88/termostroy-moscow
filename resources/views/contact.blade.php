@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bosh sahifa')
+@section('title', 'Контакты')
 
 @section('content')
   <div class="bg-white text-black py-12">

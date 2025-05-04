@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Termostroy" name="description">
+    <meta content="Проект" name="keywords">
+
     <title>@yield('title', 'Creative Agency')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
@@ -11,8 +14,12 @@
   
 </head>
 <body class="text-gray-800 bg-white antialiased">
+  
+    @include('layouts.header')
 
-  @yield('content')
+    @yield('content')
+
+    @include('layouts.footer')
 
   <script>
     window.addEventListener('load', () => {
