@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="mt-10 border-t pt-5 text-center text-sm">
-      © 2025 Termostroy компания. Все права защищены.
+      © 2025 Termostroy компания. Все права защищены. 2018-2025
     </div>
   </footer>
   
