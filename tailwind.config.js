@@ -12,6 +12,7 @@ export default {
         backgroundImage: {
           'moscow': "url('/images/moscow-city.jpg')",
           'moscow_night': "url('/images/moscow-city_night.jpg')",
+          'bg-logo': "url('/images/logo-termo.png')"
         },
       },
     },
