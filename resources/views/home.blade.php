@@ -430,7 +430,7 @@
                     📞 Позвоните нам
                   </p>
                   <p>
-                    <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white wight:hover:before:bg-white dark:focus:before:bg-white" href="mailto:example@site.so">
+                    <a class="relative inline-block font-medium text-wight before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white wight:hover:before:bg-white dark:focus:before:bg-white" href="tel:+79672145669">
                       +7 967 214 5669
                     </a>
                   </p>
