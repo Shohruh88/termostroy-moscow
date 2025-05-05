@@ -7,7 +7,7 @@
         <!-- Logo -->
         <a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80" href="/" aria-label="Preline">
 
-            <img class="w-28 h-auto" width="116" height='32' viewBox="0 0 116 32" fill="none" src="/images/logo.jpg" alt="">
+            <img class="w-28 h-auto" width="116" height='32' viewBox="0 0 116 32" fill="none" src="/images/termostroy_logo_simple.png" alt="">
 
 
           {{-- <svg class="w-28 h-auto" width="116" height="32" viewBox="0 0 116 32" fill="none" xmlns="http://www.w3.org/2000/svg">
