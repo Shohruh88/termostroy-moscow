@@ -38,8 +38,17 @@
                   <p>
                     <a href="mailto:termostroy2018@yandex.ru" class="text-lime-500 hover:text-black dark:text-white dark:hover:text-gray-300">termostroy2018@yandex.ru</a>
                   </p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <svg class="text-gray-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z"></path>
+                  <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10"></path>
+                </svg>
+                <div>
+                  <p class="text-sm text-gray-600">Электронный адрес</p>
                   <p>
-                    <a href="mailto:termostroy2018@yandex.ru" class="text-lime-500 hover:text-black dark:text-white dark:hover:text-gray-300">info@termostroy.moscow </a>
+                    <a href="mailto:termostroy2018@yandex.ru" class="text-lime-500 hover:text-black dark:text-white dark:hover:text-gray-300">info@termostroy.moscow</a>
                   </p>
                 </div>
               </div>
@@ -68,8 +77,8 @@
     </div>
     
     <!-- Footer -->
-    <footer class="mt-12 text-center text-gray-600">
+    {{-- <footer class="mt-12 text-center text-gray-600">
       <p>📞 Позвоните нам: <a href="tel:+89672145669" class="text-lime-500 hover:text-black dark:text-white dark:hover:text-gray-300">+7 (967) 214 56 69</a></p>
-    </footer>
+    </footer> --}}
   </div>
 @endsection

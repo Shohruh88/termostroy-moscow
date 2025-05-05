@@ -596,6 +596,18 @@
                   </a>
                 </p>
               </div>
+
+              
+              <div class="grow">
+                <p class="text-sm text-gray-600 dark:text-neutral-400">
+                  Электронный адрес
+                </p>
+                <p>
+                  <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white" href="mailto:example@site.so">
+                    info@termostroy.moscow
+                  </a>
+                </p>
+              </div>
             </div>
 
               <div class="flex gap-4">
