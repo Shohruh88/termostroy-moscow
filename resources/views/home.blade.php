@@ -393,7 +393,98 @@
 <!-- End Grid -->
 
     <!-- Testimonials -->
-    <div class="bg-black">
+    <div class="relative bg-cover bg-center bg-no-repeat min-h-[400px]" style="background-image: url('/images/logo-termo.png');">
+      <div class="bg-black bg-opacity-60 min-h-[400px] flex items-center">
+        <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto py-8 lg:py-16 text-white">
+          <blockquote class="max-w-4xl mx-auto">
+            <p class="mb-6 md:text-lg">
+              <span class="font-semibold text-lime-400">Связаться с нами</span> <span class="text-neutral-500">.</span>
+            </p>
+    
+            <p class="text-xl sm:text-2xl md:text-3xl md:leading-normal">
+              Если у Вас есть вопросы или предложения, можете направить их нам. Мы обязательно Вам ответим.
+            </p>
+    
+            <footer class="mt-6 md:mt-10">
+              <div class="border-neutral-700">
+                <button type="button" class="group inline-flex items-center gap-x-3 text-neutral-400 text-sm focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none">
+                  <p class="text-sm text-gray-300 dark:text-neutral-400">📞 Позвоните нам</p>
+                  <p>
+                    <a class="relative inline-block font-medium text-white before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white hover:before:bg-white dark:focus:before:bg-white"
+                       href="tel:+79672145669">
+                      +7 967 214 5669
+                    </a>
+                  </p>
+                </button>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    
+    {{-- <div class="relative bg-cover bg-center bg-no-repeat min-h-[400px]" style="background-image: url('/images/logo-termo.png');">
+      <div class="bg-black bg-opacity-60 min-h-[400px] flex items-center">
+        <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto py-8 lg:py-16 text-white">
+          <blockquote class="max-w-4xl mx-auto">
+            <p class="mb-6 md:text-lg">
+              <span class="font-semibold text-lime-400">Связаться с нами</span> <span class="text-neutral-500">.</span>
+            </p>
+    
+            <p class="text-xl sm:text-2xl md:text-3xl md:leading-normal">
+              Если у Вас есть вопросы или предложения, можете направить их нам. Мы обязательно Вам ответим.
+            </p>
+    
+            <footer class="mt-6 md:mt-10">
+              <div class="border-neutral-700">
+                <button type="button" class="group inline-flex items-center gap-x-3 text-neutral-400 text-sm focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none">
+                  <p class="text-sm text-gray-300 dark:text-neutral-400">📞 Позвоните нам</p>
+                  <p>
+                    <a class="relative inline-block font-medium text-white before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white hover:before:bg-white dark:focus:before:bg-white"
+                       href="tel:+79672145669">
+                      +7 967 214 5669
+                    </a>
+                  </p>
+                </button>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div> --}}
+    
+    {{-- <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('/images/logo-termo.png');">
+      <div class="absolute inset-0 bg-black bg-opacity-60"></div> <!-- optional dark overlay -->
+      
+      <div class="relative max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
+        <blockquote class="max-w-4xl mx-auto">
+          <p class="mb-6 md:text-lg">
+            <span class="font-semibold text-lime-400">Связаться с нами</span> <span class="text-neutral-500">.</span>
+          </p>
+    
+          <p class="text-xl sm:text-2xl md:text-3xl md:leading-normal text-white">
+            Если у Вас есть вопросы или предложения, можете направить их нам. Мы обязательно Вам ответим.
+          </p>
+    
+          <footer class="mt-6 md:mt-10">
+            <div class="border-neutral-700">
+              <button type="button" class="group inline-flex items-center gap-x-3 text-neutral-400 text-sm focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none">
+                <p class="text-sm text-gray-600 dark:text-neutral-400">📞 Позвоните нам</p>
+                <p>
+                  <a class="relative inline-block font-medium text-white before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white hover:before:bg-white dark:focus:before:bg-white"
+                     href="tel:+79672145669">
+                    +7 967 214 5669
+                  </a>
+                </p>
+              </button>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div> --}}
+    
+
+    {{-- <div class="bg-logo  width = '54px' height='120px' ">
       <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
         <blockquote class="max-w-4xl mx-auto">
           <p class="mb-6 md:text-lg">
@@ -406,13 +497,6 @@
           <footer class="mt-6 md:mt-10">
             <div class="border-neutral-700">
               <button type="button" class="group inline-flex items-center gap-x-3 text-neutral-400 text-sm focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none">
-                {{-- <span class="size-8 md:size-10 flex flex-col justify-center items-center bg-white text-black rounded-full group-hover:bg-lime-400 group-focus:bg-lime-400">
-                  <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
-                  </svg>
-                </span> --}}
-
-                {{-- Watch the Video --}}
 
                 <p class="text-sm text-gray-600 dark:text-neutral-400">
                     📞 Позвоните нам
@@ -427,7 +511,9 @@
           </footer>
         </blockquote>
       </div>
-    </div>
+    </div> --}}
+
+    
     <!-- End Testimonials -->
 
 

@@ -38,6 +38,9 @@
                   <p>
                     <a href="mailto:termostroy2018@yandex.ru" class="text-lime-500 hover:text-black dark:text-white dark:hover:text-gray-300">termostroy2018@yandex.ru</a>
                   </p>
+                  <p>
+                    <a href="mailto:termostroy2018@yandex.ru" class="text-lime-500 hover:text-black dark:text-white dark:hover:text-gray-300">info@termostroy.moscow </a>
+                  </p>
                 </div>
               </div>
 
