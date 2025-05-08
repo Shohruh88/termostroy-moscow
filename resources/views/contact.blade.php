@@ -3,7 +3,7 @@
 @section('title', 'Контакты')
 
 @section('content')
-  <div class="bg-white text-black py-12">
+  <div class="bg-white text-black py-12 bg-moscow_night">
     <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
       <!-- Title Section -->
       <div class="mb-6 sm:mb-10 text-center">
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Footer -->
     {{-- <footer class="mt-12 text-center text-gray-600">
       <p>📞 Позвоните нам: <a href="tel:+89672145669" class="text-lime-500 hover:text-black dark:text-white dark:hover:text-gray-300">+7 (967) 214 56 69</a></p>
