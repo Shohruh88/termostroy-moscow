@@ -1,17 +1,3 @@
-{{--<header data-v-907db30a="" class="el-header sticky top-0 z-50 w-full bg-white dark:bg-[#262626] p-0" style="--el-header-height: 64;">--}}
-{{--    <header data-v-c3433c2b="" data-v-907db30a=""--}}
-{{--            class="sticky top-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-gray-200--}}
-{{--            dark:bg-neutral-800 dark:border-neutral-700">--}}
-{{--        <nav data-v-c3433c2b="" class="relative max-w-7xl w-full flex flex-wrap md:flex-nowrap md:grid md:grid-cols-12 basis-full items-center h-16 px-4 md:px-6 mx-auto">--}}
-{{--            <div data-v-c3433c2b="" class="md:col-span-3 flex items-center">--}}
-{{--                <a data-v-c3433c2b="" class="flex-none text-xl inline-block font-semibold focus:outline-none focus:opacity-80" href="https://startinvest.uz/">--}}
-{{--                    <img data-v-c3433c2b="" src="/images/logo.svg" class="-mb-5" alt="Element logo" style="width: 100px;">--}}
-{{--                </a></div><div data-v-c3433c2b="" class="flex items-center gap-x-1 md:gap-x-2 ml-auto md:ml-0 py-1 md:ps-6 md:order-3 md:col-span-3">--}}
-{{--                <div data-v-c3433c2b="" class="hidden md:flex md:items-center md:gap-x-2">--}}
-{{--                    <div data-v-c3433c2b="" class="relative">--}}
-{{--                        <div class="hs-select relative"></div>--}}
-
-
 
  <!-- ========== HEADER ========== -->
  <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full ">
