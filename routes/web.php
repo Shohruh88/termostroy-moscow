@@ -7,11 +7,12 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
 
-Route::post('language-switch', [LanguageController::class, 'switchLanguage'])->name('language.switch');
+
 
 Route::group([
     'middleware' => 'locale',
 ], function () {
+    Route::post('language-switch', [LanguageController::class, 'switchLanguage'])->name('language.switch');
 //service
     Route::get('/service', [ServiceController::class, 'index'])->name('service');
 

@@ -17,17 +17,30 @@ class LocaleMiddleware
 
     protected array $availableLocales = ['ru', 'en', 'turk'];
 
+//    public function handle(Request $request, Closure $next): Response
+//    {
+//
+//        // Check if a locale is provided in the URL
+//        $locale = session('locale'); // Assumes the locale is the first segment of the URL
+//
+//        // Validate the locale against the available locales
+//        if (in_array($locale, $this->availableLocales)) {
+//            app()->setLocale($locale);
+//        }
+//
+//        return $next($request);
+//    }
+
     public function handle(Request $request, Closure $next): Response
     {
-
-        // Check if a locale is provided in the URL
-        $locale = session('locale'); // Assumes the locale is the first segment of the URL
-
-        // Validate the locale against the available locales
+        $locale = session('locale', config('app.locale')); // fallback to default locale
         if (in_array($locale, $this->availableLocales)) {
             app()->setLocale($locale);
+        } else {
+            app()->setLocale(config('app.locale')); // default language from config/app.php
         }
 
         return $next($request);
     }
+
 }
