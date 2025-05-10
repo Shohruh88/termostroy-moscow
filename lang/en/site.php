@@ -7,6 +7,9 @@ return [
         'contact' => "Contacts",
         'team' => 'Team',
         'projects' => 'Projects',
+        'OurPartners' => 'Our Partners',
+
+        'OurProjects' => 'Our Projects',
 
 
 ];

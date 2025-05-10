@@ -7,5 +7,8 @@ return [
         'team' => 'Жамоа',
         'contact' => "Контакты",
         'projects' => 'Проекты‍',
+        'OurPartners' => 'Наши партнеры',
+
+        'OurProjects' => 'Наши проекты',
 
 ];

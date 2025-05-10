@@ -3,7 +3,7 @@
 @section('title', 'Контакты')
 
 @section('content')
-  <div class="bg-white text-black py-12 bg-moscow_night">
+  <div class="bg-white text-black py-12 ">
     <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
       <!-- Title Section -->
       <div class="mb-6 sm:mb-10 text-center">

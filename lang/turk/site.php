@@ -6,4 +6,7 @@ return[
     'services' => 'Hizmetler',
     'contact' => "İLETİŞİM",
     'projects' => 'PROJELER',
+    'OurPartners' => 'İş Ortaklarımız',
+
+    'OurProjects' => 'Projelerimiz',
 ];

@@ -2,7 +2,7 @@
 <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
     <div class="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
         <h1 class="font-medium text-black text-2xl sm:text-4xl dark:text-white">
-            Наши проекты
+            {{__('site.OurProjects')}}
         </h1>
     </div>
 
@@ -17,7 +17,7 @@
             </div>
 
             <div class="pt-4">
-                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
                     Олимпия Парк
                 </h3>
 
@@ -34,7 +34,7 @@
             </div>
 
             <div class="pt-4">
-                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
                     ЖК Capital Towers (Капитал Тауэрс)
                 </h3>
 
@@ -51,7 +51,7 @@
             </div>
 
             <div class="pt-4">
-                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
                     Центральный телеграф
                     Тверская улица, 7.
                 </h3>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="pt-4">
-                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-white">
+                <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
                     Группа ПСН Рязанский проспект,2
                 </h3>
             </div>
@@ -79,7 +79,7 @@
     <!-- End Card Grid -->
 
     <div class="mt-10 lg:mt-20 text-center">
-        <a class="relative inline-block font-medium md:text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-white dark:hover:before:bg-white dark:focus:before:bg-white"
+        <a class="relative inline-block font-medium md:text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-black dark:hover:before:bg-white dark:focus:before:bg-white"
            href="{{route('projects')}}">
             👉 Посмотреть все наши работы
         </a>
