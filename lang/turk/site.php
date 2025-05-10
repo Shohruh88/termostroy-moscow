@@ -1,9 +1,9 @@
 <?php
 return[
-    'home' => 'Bosh sahifa',
-    'about' => 'Biz haqimizda',
+    'home' => 'Anasayfa',
+    'about' => 'Hakkında',
     'team' => 'Jamoa',
-    'services' => 'Xizmatlar',
+    'services' => 'Hizmetler',
     'contact' => "İLETİŞİM",
     'projects' => 'PROJELER',
 ];
