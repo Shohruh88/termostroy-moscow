@@ -32,4 +32,7 @@ Route::group([
         return view('projects');
     })->name('projects');
 
+    Route::get('/capital-towers', [ProjectController::class, 'CapitalTowers'])->name('CapitalTowers');
+
+
 });

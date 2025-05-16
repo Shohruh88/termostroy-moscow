@@ -10,4 +10,8 @@ class ProjectController extends Controller
     {
         return view('project');
     }
+
+    public function CapitalTowers(){
+        return view('project.capital_towers');
+    }
 }
