@@ -72,9 +72,10 @@
         <div class="px-4 sm:px-6 lg:px-8 ">
             <div data-hs-carousel='{
           "loadingClasses": "opacity-0"
-        }' class="relative">
+
+        }'  data-carousel='{"isAutoPlay": true, "interval": 3000}' class="relative">
                 <div
-                    class="hs-carousel relative overflow-hidden w-full h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] bg-gray-100 rounded-2xl dark:bg-neutral-800">
+                    class="hs-carousel relative overflow-hidden w-full h-120 md:h-[calc(100vh-106px)] bg-gray-100 rounded-2xl dark:bg-neutral-800">
                     <div
                         class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
 
@@ -82,7 +83,7 @@
                         <!-- Item -->
                         <div class="hs-carousel-slide">
                             <div
-                                class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-moscow bg-cover bg-center bg-no-repeat">
+                                class="h-120 md:h-[calc(100vh-106px)] flex flex-col bg-moscow bg-cover bg-center bg-no-repeat">
                                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                                     <span class="block text-white">Termostroy</span>
                                     <span class="block text-white text-xl md:text-3xl">Moscow</span>
@@ -100,9 +101,25 @@
                         <!-- Item -->
                         <div class="hs-carousel-slide">
                             <div
-                                class="h-120 md:h-[calc(100vh-106px)] md:h-[calc(100vh-106px)] flex flex-col bg-moscow_night bg-cover bg-center bg-no-repeat">
+                                class="h-120 md:h-[calc(100vh-106px)] flex flex-col bg-moscow_night bg-cover bg-center bg-no-repeat">
                                 <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                                     <span class="block text-white">Moscow</span>
+                                    {{-- <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span> --}}
+                                    <div class="mt-5">
+                                        {{-- <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
+                                          Read Case Studies
+                                        </a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+                         <!-- Item -->
+                        <div class="hs-carousel-slide">
+                            <div
+                                class="h-120 md:h-[calc(100vh-106px)] flex flex-col bg-moscow__second bg-cover bg-center bg-no-repeat">
+                                <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
+                                    <span class="block text-white">ЖК Capital Towers</span>
                                     {{-- <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span> --}}
                                     <div class="mt-5">
                                         {{-- <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
@@ -146,10 +163,9 @@
             </div>
         </div>
         <!-- End Slider -->
-        <br>
-        <br>
+    
         <!-- Blockquote -->
-        <blockquote class="max-w-xl mx-auto text-center">
+        <!-- <blockquote class="max-w-xl mx-auto text-center">
             <div
                 class="mb-3 py-3 flex items-center text-sm text-gray-800 before:flex-1 before:border-t before:border-gray-200 before:me-6 after:flex-1 after:border-t after:border-gray-200 after:ms-6 dark:text-white dark:before:border-neutral-700 dark:after:border-neutral-700">
                     <p>Termostroy Moscow</p>
@@ -172,7 +188,63 @@
                      ПОСТРОЕНО С МОМЕНТА ОСНОВАНИЯ
                  </span>
             </footer>
-        </blockquote>
+        </blockquote> -->
+        <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Наша миссия</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Предоставление услуг инвестиционным и подрядным организациям, путем оказания технической поддержки и создания оптимальных решений
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-medal text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">20 лет опыта</h3>
+                            <p class="text-gray-600">В разработке и реализации сложных инженерных проектов</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-building text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">Более 10 млн м²</h3>
+                            <p class="text-gray-600">Построено с момента основания компании</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-users text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">Профессиональная команда</h3>
+                            <p class="text-gray-600">Высококвалифицированные специалисты с многолетним опытом</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <img src="images/logo-termo.png" alt="About Us" class="rounded-lg shadow-2xl" />
+                    <div class="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-lg shadow-xl">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">100+</div>
+                            <div class="text-sm">Завершенных проектов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
         <!-- End Blockquote -->
         <br>
 
@@ -377,6 +449,58 @@
 
         @include('layouts.project')
 
+                                        <!-- Nash uslugi  -->
+        <section id="services" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Наши услуги</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Мы предлагаем полный спектр услуг в области проектирования и строительства инженерных систем
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-xl p-8 shadow-lg card-hover">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-drafting-compass text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Проектирование</h3>
+                    <p class="text-gray-600 text-center">Проектирование всех видов инженерных систем жилых и коммерческих зданий с учетом современных технологий</p>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-xl p-8 shadow-lg card-hover">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-tools text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Инженерия</h3>
+                    <p class="text-gray-600 text-center">Выполнение строительно-монтажных работ в сфере инженерии в соответствии с нормами безопасности</p>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-xl p-8 shadow-lg card-hover">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-cogs text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Эксплуатация</h3>
+                    <p class="text-gray-600 text-center">Техническая эксплуатация всех систем в объектах недвижимости с обеспечением бесперебойной поддержки</p>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="bg-white rounded-xl p-8 shadow-lg card-hover">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-key text-orange-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Работы под ключ</h3>
+                    <p class="text-gray-600 text-center">Комплексное выполнение работ от проектирования до эксплуатации с полной ответственностью</p>
+                </div>
+            </div>
+        </div>
+    </section>
+                                         <!-- Nash uslugi  --->
+
         <!-- FAQ -->
         <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <!-- Grid -->
@@ -480,65 +604,71 @@
 
 
         <!-- Card Blog -->
-        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-            <!-- Grid -->
-            <div class="grid sm:grid-cols-2 sm:items-center gap-8">
-                <div class="sm:order-2">
-                    <div class="relative pt-[50%] sm:pt-[100%] rounded-lg">
-                        <img class="size-full absolute top-0 start-0 object-cover rounded-lg"
-                             src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
-                             alt="Blog Image">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="sm:order-1">
-                    <p class="mb-5 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-neutral-800 dark:text-neutral-200">
-                        Business insight
+        <section id="contact" class="py-20 bg-gray-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-white">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-6">Связаться с нами</h2>
+                    <p class="text-xl mb-8 opacity-90">
+                        Если у Вас есть вопросы или предложения, можете направить их нам. Мы обязательно Вам ответим.
                     </p>
-
-                    <h2 class="text-2xl font-bold md:text-3xl lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight text-gray-800 dark:text-neutral-200">
-                        <a class="hover:text-blue-600 focus:outline-hidden focus:text-blue-600 dark:text-neutral-300 dark:hover:text-white dark:focus:text-white"
-                           href="#">
-                            How to get buy-in and budget for direct hiring
-                        </a>
-                    </h2>
-
-                    <!-- Avatar -->
-                    <div class="mt-6 sm:mt-10 flex items-center">
-                        <div class="shrink-0">
-                            <img class="size-10 sm:h-14 sm:w-14 rounded-full"
-                                 src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                                 alt="Blog Image">
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-white bg-opacity-20 p-3 rounded-full">
+                                <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Наш адрес</h3>
+                                <p class="opacity-90">г. Москва, 5-я Магистральная, д.12, ком.42</p>
+                            </div>
                         </div>
-
-                        <div class="ms-3 sm:ms-4">
-                            <p class="sm:mb-1 font-semibold text-gray-800 dark:text-neutral-200">
-                                Louise Donadieu
-                            </p>
-                            <p class="text-xs text-gray-500 dark:text-neutral-500">
-                                Strategic Marketing Consultant
-                            </p>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-white bg-opacity-20 p-3 rounded-full">
+                                <i class="fas fa-phone text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Телефон</h3>
+                                <a href="tel:+79672145669" class="opacity-90 hover:text-blue-300 transition-colors duration-300">+7 (967) 214-56-69</a>
+                            </div>
                         </div>
-                    </div>
-                    <!-- End Avatar -->
-
-                    <div class="mt-5">
-                        <a class="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500"
-                           href="#">
-                            Read more
-                            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m9 18 6-6-6-6"/>
-                            </svg>
-                        </a>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-white bg-opacity-20 p-3 rounded-full">
+                                <i class="fas fa-envelope text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Email</h3>
+                                <a href="mailto:info@termostroy.moscow" class="opacity-90 hover:text-blue-300 transition-colors duration-300">info@termostroy.moscow</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- End Col -->
+                
+                <div class="bg-white rounded-xl p-8 shadow-2xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Отправить сообщение</h3>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Имя</label>
+                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Сообщение</label>
+                            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                            Отправить сообщение
+                        </button>
+                    </form>
+                </div>
             </div>
-            <!-- End Grid -->
         </div>
+    </section>
         <!-- End Card Blog -->
 
         <!-- Testimonials -->
@@ -576,151 +706,6 @@
         </div>
         <!-- End Testimonials -->
 
-
-
-{{--        <!-- Contact -->--}}
-{{--        <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-24 mx-auto">--}}
-{{--            <div class="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">--}}
-{{--                <h2 class="font-medium text-black text-2xl sm:text-4xl dark:text-black">--}}
-{{--                    {{__('site.contact')}}--}}
-{{--                </h2>--}}
-{{--            </div>--}}
-{{--            <div class="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-6 md:gap-8 lg:gap-12">--}}
-{{--                <div--}}
-{{--                    class="aspect-w-16 aspect-h-6 lg:aspect-h-14 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">--}}
-{{--                    <img--}}
-{{--                        class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"--}}
-{{--                        src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"--}}
-{{--                        alt="Contacts Image">--}}
-{{--                </div>--}}
-{{--                <!-- End Col -->--}}
-
-{{--                <div class="space-y-8 lg:space-y-16">--}}
-{{--                    <div>--}}
-{{--                        <h3 class="mb-5 font-semibold text-black dark:text-black">--}}
-{{--                            Наш адрес--}}
-{{--                        </h3>--}}
-{{--                        <!-- Grid -->--}}
-{{--                        <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">--}}
-{{--                            <div class="flex gap-4">--}}
-{{--                                <svg class="shrink-0 size-5 text-gray-500 dark:text-neutral-500"--}}
-{{--                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"--}}
-{{--                                     fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"--}}
-{{--                                     stroke-linejoin="round">--}}
-{{--                                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>--}}
-{{--                                    <circle cx="12" cy="10" r="3"></circle>--}}
-{{--                                </svg>--}}
-
-{{--                                <div class="grow">--}}
-{{--                                    <p class="text-sm text-gray-600 dark:text-neutral-400">--}}
-{{--                                        г.Москва--}}
-{{--                                    </p>--}}
-{{--                                    <address class="mt-1 text-black not-italic dark:text-black">--}}
-{{--                                        5-я Магистральная , д.12, ком.42<br>--}}
-{{--                                        д.12, ком.42--}}
-{{--                                    </address>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <!-- End Grid -->--}}
-{{--                    </div>--}}
-
-{{--                    <div>--}}
-{{--                        <h3 class="mb-5 font-semibold text-black dark:text-black">--}}
-{{--                            Наши контакты--}}
-{{--                        </h3>--}}
-
-{{--                        <!-- Grid -->--}}
-{{--                        <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">--}}
-{{--                            <div class="flex gap-4">--}}
-{{--                                <svg class="shrink-0 size-5 text-gray-500 dark:text-neutral-500"--}}
-{{--                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"--}}
-{{--                                     fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"--}}
-{{--                                     stroke-linejoin="round">--}}
-{{--                                    <path--}}
-{{--                                        d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z"></path>--}}
-{{--                                    <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10"></path>--}}
-{{--                                </svg>--}}
-
-{{--                                <div class="grow">--}}
-{{--                                    <p class="text-sm text-gray-600 dark:text-neutral-400">--}}
-{{--                                        Электронный адрес--}}
-{{--                                    </p>--}}
-{{--                                    <p>--}}
-{{--                                        <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-black dark:hover:before:bg-white dark:focus:before:bg-white"--}}
-{{--                                           href="mailto:example@site.so">--}}
-{{--                                            termostroy2018@yandex.ru--}}
-{{--                                        </a>--}}
-{{--                                    </p>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-
-{{--                            <div class="grow">--}}
-{{--                                <div class="flex gap-4">--}}
-{{--                                    <svg class="shrink-0 size-5 text-gray-500 dark:text-neutral-500"--}}
-{{--                                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"--}}
-{{--                                         fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"--}}
-{{--                                         stroke-linejoin="round">--}}
-{{--                                        <path--}}
-{{--                                            d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z"></path>--}}
-{{--                                        <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10"></path>--}}
-{{--                                    </svg>--}}
-{{--                                    <p class="text-sm text-gray-600 dark:text-neutral-400">--}}
-{{--                                        Электронный адрес--}}
-{{--                                    </p>--}}
-{{--                                    <p>--}}
-{{--                                        <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-black dark:hover:before:bg-white dark:focus:before:bg-white"--}}
-{{--                                           href="mailto:example@site.so">--}}
-{{--                                            tender.ts@termostroy.moscow--}}
-{{--                                        </a>--}}
-{{--                                    </p>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-
-
-{{--                            <div class="grow">--}}
-{{--                                <p class="text-sm text-gray-600 dark:text-neutral-400">--}}
-{{--                                    Электронный адрес--}}
-{{--                                </p>--}}
-{{--                                <p>--}}
-{{--                                    <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-black dark:hover:before:bg-white dark:focus:before:bg-white"--}}
-{{--                                       href="mailto:example@site.so">--}}
-{{--                                        info@termostroy.moscow--}}
-{{--                                    </a>--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-
-{{--                        <div class="flex gap-4">--}}
-{{--                            <svg class="shrink-0 size-5 text-gray-500 dark:text-neutral-500"--}}
-{{--                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"--}}
-{{--                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"--}}
-{{--                                 stroke-linejoin="round">--}}
-{{--                                <path--}}
-{{--                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>--}}
-{{--                            </svg>--}}
-
-{{--                            <div class="grow">--}}
-{{--                                <p class="text-sm text-gray-600 dark:text-neutral-400">--}}
-{{--                                    Позвоните нам--}}
-{{--                                </p>--}}
-{{--                                <p>--}}
-{{--                                    <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-black dark:hover:before:bg-white dark:focus:before:bg-white"--}}
-{{--                                       href="mailto:example@site.so">--}}
-{{--                                        +8 (985) 344 88 80--}}
-{{--                                    </a>--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <!-- End Grid -->--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <!-- End Col -->--}}
-{{--        </div>--}}
-{{--        </div>--}}
-{{--        <!-- End Contact -->--}}
-
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
 
@@ -746,6 +731,20 @@
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/preline/dist/index.js"></script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const el = document.querySelector('[data-hs-carousel]');
+    if (!el) return;
+
+    const carousel = new window.HSCarousel(el, {
+      isAutoPlay: true,
+      interval: 3000
+    });
+
+    carousel.init();
+  });
+</script>
+
 
     </body>
     </html>

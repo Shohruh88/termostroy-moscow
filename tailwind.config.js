@@ -10,8 +10,8 @@ export default {
     theme: {
       extend: {
         backgroundImage: {
-          'moscow': "url('/images/moscow-city.jpg')",
-          'moscow_night': "url('/images/moscow-city_night.jpg')",
+          'moscow': "url('/images/moscow-city.webp')",
+          'moscow_night': "url('/images/moscow-city_night.webp')",
           'bg-logo': "url('/images/logo-termo.png')",
            'tower_moscow': "url('/images/telegraf.jpg')"
         },

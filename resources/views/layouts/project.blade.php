@@ -77,12 +77,18 @@
         <!-- End Card -->
     </div>
     <!-- End Card Grid -->
+         <div class="text-center mt-12">
+                <a href="{{route('projects')}}" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 inline-block">
+                    Посмотреть все проекты
+                </a>
+            </div>
 
-    <div class="mt-10 lg:mt-20 text-center">
-        <a class="relative inline-block font-medium md:text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-black dark:hover:before:bg-white dark:focus:before:bg-white"
-           href="{{route('projects')}}">
-            👉 Посмотреть все наши работы
-        </a>
-    </div>
+
+    <!--<div class="mt-10 lg:mt-20 text-center">-->
+    <!--    <a class="relative inline-block font-medium md:text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black dark:text-black dark:hover:before:bg-white dark:focus:before:bg-white"-->
+    <!--       href="{{route('projects')}}">-->
+    <!--        👉 Посмотреть все наши работы-->
+    <!--    </a>-->
+    <!--</div>-->
 </div>
 <!-- End Works -->
