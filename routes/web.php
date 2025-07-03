@@ -20,7 +20,7 @@ Route::group([
     Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 //HomeController
-    Route::get('/', [HomeController::class, 'index']);
+    Route::get('/', [HomeController::class, 'index'])->name('home');
 
     Route::get('/about', [HomeController::class, 'about'])->name('about');
 
