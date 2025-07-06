@@ -20,3 +20,18 @@
 
 
 
+/* Existing styles + add these: */
+.text-gradient {
+    background: linear-gradient(135deg, #84cc16, #65a30d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}

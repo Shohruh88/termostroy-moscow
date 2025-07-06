@@ -62,6 +62,131 @@
 
         <!-- CSS Preline -->
         <link rel="stylesheet" href="https://preline.co/assets/css/main.min.css">
+
+        <!-- Advanced Custom Styles -->
+<style>
+/* Glassmorphism Advanced */
+.backdrop-blur-xl {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+/* Enhanced Gradient Text */
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Advanced Shadow Effects */
+.shadow-3xl {
+    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Smooth Accordion Transitions */
+.hs-accordion-content {
+    transition: height 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Advanced Hover States */
+.group:hover .relative::before {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Enhanced Focus States for Accessibility */
+.hs-accordion-toggle:focus {
+    outline: 3px solid rgba(16, 185, 129, 0.5);
+    outline-offset: 2px;
+    border-radius: 1.5rem;
+}
+
+/* Micro-interactions */
+.group:hover .w-14 {
+    transform: scale(1.1) rotate(5deg);
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Advanced Pulse Animation */
+@keyframes advancedPulse {
+    0%, 100% { opacity: 0.6; transform: scale(0.95); }
+    50% { opacity: 1; transform: scale(1.05); }
+}
+
+.animate-pulse {
+    animation: advancedPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Glow Effects */
+.group:hover .absolute.inset-0.blur-xl {
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { opacity: 0.4; transform: scale(0.8); }
+    to { opacity: 0.8; transform: scale(1.2); }
+}
+
+/* Performance Optimizations */
+.hs-accordion {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    .text-xl.lg\:text-2xl {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+}
+
+/* Enhanced Loading States */
+.group {
+    contain: layout style paint;
+}
+
+/* Advanced Color Transitions */
+.transition-colors {
+    transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+</style>
+
+<!-- Enhanced JavaScript for Premium Interactions -->
+
+<!-- Custom Styles -->
+<style>
+/* Glassmorphism effect */
+.backdrop-blur-sm {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Enhanced transitions */
+.hs-accordion-content {
+    transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Gradient text */
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Smooth hover animations */
+.group:hover .w-10 {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* Focus states for accessibility */
+.hs-accordion-toggle:focus {
+    outline: 2px solid #10b981;
+    outline-offset: 2px;
+    border-radius: 0.75rem;
+}
+</style>
     </head>
 
     <body class="dark:bg-neutral-900">
@@ -526,210 +651,448 @@
             <!-- Nash uslugi  --->
 
             <!-- FAQ -->
-            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-                <!-- Grid -->
-                <div class="grid md:grid-cols-5 gap-10">
-                    <div class="md:col-span-2">
-                        <div class="max-w-xs">
-                            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Frequently<br>asked
-                                questions</h2>
-                            <p class="mt-1 hidden md:block text-gray-600 dark:text-neutral-400">Answers to the most
-                                frequently asked questions.</p>
+  <!-- Premium FAQ Section - Enterprise Level Design -->
+<div class="relative bg-gradient-to-br from-slate-50 via-white to-blue-50 py-20 overflow-hidden">
+    <!-- Geometric Background -->
+    <div class="absolute inset-0 opacity-[0.03]">
+        <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+            <defs>
+                <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                    <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                </pattern>
+            </defs>
+            <rect width="100" height="100" fill="url(#grid)" />
+        </svg>
+    </div>
+    
+    <!-- Floating Elements -->
+    <div class="absolute top-20 left-20 w-72 h-72 bg-lime-400/5 rounded-full blur-3xl animate-pulse"></div>
+    <div class="absolute bottom-20 right-20 w-96 h-96 bg-blue-400/5 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s"></div>
+    
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto relative">
+        <!-- Grid -->
+        <div class="grid md:grid-cols-5 gap-12 lg:gap-16">
+            <!-- Left Column - Enhanced -->
+            <div class="md:col-span-2">
+                <div class="sticky top-8 space-y-8">
+                    <!-- Main Header -->
+                    <div class="relative">
+                        <!-- Decorative Line -->
+                        <div class="absolute -left-4 top-0 w-1 h-24 bg-gradient-to-b from-lime-500 via-green-500 to-emerald-500 rounded-full"></div>
+                        
+                        <!-- Icon Badge -->
+                        <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-lime-500 to-emerald-600 rounded-2xl shadow-xl mb-6 relative">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <!-- Pulse Ring -->
+                            <div class="absolute -inset-2 bg-lime-400/20 rounded-2xl animate-ping"></div>
+                        </div>
+                        
+                        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                            <span class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent">Часто задаваемые</span>
+                            <br>
+                            <span class="bg-gradient-to-r from-lime-600 via-green-600 to-emerald-600 bg-clip-text text-transparent">вопросы</span>
+                        </h2>
+                        
+                        <p class="text-lg text-gray-600 leading-relaxed max-w-sm">
+                            Получите ответы на самые важные вопросы о наших строительных услугах и процессах работы.
+                        </p>
+                    </div>
+                    
+                    <!-- Stats Card -->
+                    <div class="bg-white/80 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-white/20 relative overflow-hidden">
+                        <!-- Gradient Overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-br from-lime-50/50 to-blue-50/50 rounded-3xl"></div>
+                        
+                        <div class="relative">
+                            <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">Статистика FAQ</h3>
+                            
+                            <div class="grid grid-cols-2 gap-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold bg-gradient-to-r from-lime-600 to-green-600 bg-clip-text text-transparent mb-1">6</div>
+                                    <div class="text-sm text-gray-600">Вопросов</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-1">100%</div>
+                                    <div class="text-sm text-gray-600">Покрытие</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Progress Bar -->
+                            <div class="mt-6">
+                                <div class="flex justify-between text-sm text-gray-600 mb-2">
+                                    <span>Готовность ответов</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+                                    <div class="h-full bg-gradient-to-r from-lime-500 to-green-600 rounded-full animate-pulse" style="width: 100%"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- End Col -->
-
-                    <div class="md:col-span-3">
-                        <!-- Accordion -->
-                        <div class="hs-accordion-group divide-y divide-gray-200 dark:divide-neutral-700">
-                            <div class="hs-accordion pb-3 active"
-                                id="hs-basic-with-title-and-arrow-stretched-heading-one">
-                                <button
-                                    class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 focus:outline-hidden focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
+                    
+                    <!-- Quick Contact -->
+                    <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 text-white relative overflow-hidden">
+                        <!-- Background Pattern -->
+                        <div class="absolute inset-0 opacity-10">
+                            <div class="absolute inset-0 bg-gradient-to-br from-lime-400/20 to-transparent"></div>
+                        </div>
+                        
+                        <div class="relative">
+                            <h3 class="text-xl font-bold mb-3">Не нашли ответ?</h3>
+                            <p class="text-gray-300 mb-6 text-sm">Свяжитесь с нашими экспертами для персональной консультации</p>
+                            
+                            <a href="tel:+79672145669" 
+                               class="inline-flex items-center px-6 py-3 bg-lime-500 hover:bg-lime-600 rounded-xl font-semibold text-gray-900 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                </svg>
+                                Позвонить сейчас
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column - Premium Accordion -->
+            <div class="md:col-span-3">
+                <div class="space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <div class="hs-accordion group active" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+                        <div class="bg-white/90 backdrop-blur-xl rounded-3xl border border-white/20 shadow-2xl hover:shadow-3xl transition-all duration-700 group-hover:border-lime-200/50 relative overflow-hidden">
+                            <!-- Gradient Border -->
+                            <div class="absolute inset-0 bg-gradient-to-r from-lime-500/10 via-transparent to-green-500/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <button class="hs-accordion-toggle w-full p-8 text-left focus:outline-none relative z-10"
                                     aria-expanded="true"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
-                                    Can I cancel at anytime?
-                                    <svg class="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m6 9 6 6 6-6" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hidden shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m18 15-6-6-6 6" />
-                                    </svg>
-                                </button>
-                                <div id="hs-basic-with-title-and-arrow-stretched-collapse-one"
-                                    class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
-                                    role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
-                                    <p class="text-gray-600 dark:text-neutral-400">
-                                        Yes, you can cancel anytime no questions are asked while you cancel but we would
-                                        highly appreciate if you will give us some feedback.
-                                    </p>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-6">
+                                        <!-- Number Badge -->
+                                        <div class="relative">
+                                            <div class="w-14 h-14 bg-gradient-to-br from-lime-500 to-green-600 rounded-2xl flex items-center justify-center text-white font-bold text-lg shadow-xl group-hover:scale-110 transition-transform duration-500">
+                                                01
+                                            </div>
+                                            <!-- Glow Effect -->
+                                            <div class="absolute inset-0 bg-lime-400/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                        </div>
+                                        
+                                        <!-- Question -->
+                                        <div>
+                                            <h3 class="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-lime-700 transition-colors duration-300">
+                                                Какие виды строительных работ вы выполняете?
+                                            </h3>
+                                            <div class="text-sm text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                Нажмите для подробного ответа
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Chevron -->
+                                    <div class="ml-4 flex-shrink-0">
+                                        <div class="relative w-8 h-8">
+                                            <svg class="hs-accordion-active:opacity-0 absolute inset-0 w-8 h-8 text-gray-400 group-hover:text-lime-600 transition-all duration-300" 
+                                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m6 9 6 6 6-6" />
+                                            </svg>
+                                            <svg class="hs-accordion-active:opacity-100 opacity-0 absolute inset-0 w-8 h-8 text-lime-600 transition-all duration-300" 
+                                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m18 15-6-6-6 6" />
+                                            </svg>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="hs-accordion pt-6 pb-3" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-                                <button
-                                    class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 focus:outline-hidden focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                                    aria-expanded="false"
-                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                                    My team has credits. How do we use them?
-                                    <svg class="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m6 9 6 6 6-6" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hidden shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m18 15-6-6-6 6" />
-                                    </svg>
-                                </button>
-                                <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
-                                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                                    role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
-                                    <p class="text-gray-600 dark:text-neutral-400">
-                                        Once your team signs up for a subscription plan. This is where we sit down, grab a
-                                        cup of coffee and dial in the details.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="hs-accordion pt-6 pb-3"
-                                id="hs-basic-with-title-and-arrow-stretched-heading-three">
-                                <button
-                                    class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 focus:outline-hidden focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                                    aria-expanded="false"
-                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
-                                    How does Preline's pricing work?
-                                    <svg class="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m6 9 6 6 6-6" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hidden shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m18 15-6-6-6 6" />
-                                    </svg>
-                                </button>
-                                <div id="hs-basic-with-title-and-arrow-stretched-collapse-three"
-                                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                                    role="region"
-                                    aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
-                                    <p class="text-gray-600 dark:text-neutral-400">
-                                        Our subscriptions are tiered. Understanding the task at hand and ironing out the
-                                        wrinkles is key.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="hs-accordion pt-6 pb-3" id="hs-basic-with-title-and-arrow-stretched-heading-four">
-                                <button
-                                    class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 focus:outline-hidden focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                                    aria-expanded="false"
-                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
-                                    How secure is Preline?
-                                    <svg class="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m6 9 6 6 6-6" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hidden shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m18 15-6-6-6 6" />
-                                    </svg>
-                                </button>
-                                <div id="hs-basic-with-title-and-arrow-stretched-collapse-four"
-                                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                                    role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four">
-                                    <p class="text-gray-600 dark:text-neutral-400">
-                                        Protecting the data you trust to Preline is our first priority. This part is really
-                                        crucial in keeping the project in line to completion.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="hs-accordion pt-6 pb-3" id="hs-basic-with-title-and-arrow-stretched-heading-five">
-                                <button
-                                    class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 focus:outline-hidden focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                                    aria-expanded="false"
-                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
-                                    How do I get access to a theme I purchased?
-                                    <svg class="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m6 9 6 6 6-6" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hidden shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m18 15-6-6-6 6" />
-                                    </svg>
-                                </button>
-                                <div id="hs-basic-with-title-and-arrow-stretched-collapse-five"
-                                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                                    role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five">
-                                    <p class="text-gray-600 dark:text-neutral-400">
-                                        If you lose the link for a theme you purchased, don't panic! We've got you covered.
-                                        You can login to your account, tap your avatar in the upper right corner, and tap
-                                        Purchases. If you didn't create a login or can't remember the information, you can
-                                        use our handy Redownload page, just remember to use the same email you originally
-                                        made your purchases with.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="hs-accordion pt-6 pb-3" id="hs-basic-with-title-and-arrow-stretched-heading-six">
-                                <button
-                                    class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 focus:outline-hidden focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                                    aria-expanded="false"
-                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
-                                    Upgrade License Type
-                                    <svg class="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m6 9 6 6 6-6" />
-                                    </svg>
-                                    <svg class="hs-accordion-active:block hidden shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="m18 15-6-6-6 6" />
-                                    </svg>
-                                </button>
-                                <div id="hs-basic-with-title-and-arrow-stretched-collapse-six"
-                                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                                    role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six">
-                                    <p class="text-gray-600 dark:text-neutral-400">
-                                        There may be times when you need to upgrade your license from the original type you
-                                        purchased and we have a solution that ensures you can apply your original purchase
-                                        cost to the new license purchase.
-                                    </p>
+                            </button>
+                            
+                            <div id="hs-basic-with-title-and-arrow-stretched-collapse-one"
+                                 class="hs-accordion-content w-full overflow-hidden transition-[height] duration-700 ease-out"
+                                 role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
+                                <div class="px-8 pb-8">
+                                    <div class="border-l-4 border-lime-500 pl-6 ml-7">
+                                        <p class="text-gray-700 leading-relaxed text-lg">
+                                            Мы специализируемся на проектировании и монтаже инженерных систем: отопление, водоснабжение, вентиляция, кондиционирование, электрика и слаботочные системы. Выполняем работы "под ключ" от проекта до ввода в эксплуатацию.
+                                        </p>
+                                        
+                                        <!-- Tags -->
+                                        <div class="flex flex-wrap gap-2 mt-4">
+                                            <span class="px-3 py-1 bg-lime-100 text-lime-700 rounded-full text-sm font-medium">Отопление</span>
+                                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">Водоснабжение</span>
+                                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Вентиляция</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End Accordion -->
                     </div>
-                    <!-- End Col -->
+
+                    <!-- FAQ Items 2-6 (Simplified structure for brevity) -->
+                    <!-- FAQ Item 2 -->
+                    <div class="hs-accordion group" id="hs-basic-with-title-and-arrow-stretched-heading-two">
+                        <div class="bg-white/90 backdrop-blur-xl rounded-3xl border border-white/20 shadow-2xl hover:shadow-3xl transition-all duration-700 group-hover:border-blue-200/50 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-transparent to-indigo-500/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <button class="hs-accordion-toggle w-full p-8 text-left focus:outline-none relative z-10"
+                                    aria-expanded="false"
+                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-6">
+                                        <div class="relative">
+                                            <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center text-white font-bold text-lg shadow-xl group-hover:scale-110 transition-transform duration-500">
+                                                02
+                                            </div>
+                                            <div class="absolute inset-0 bg-blue-400/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-blue-700 transition-colors duration-300">
+                                                Сколько времени занимает выполнение проекта?
+                                            </h3>
+                                            <div class="text-sm text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                Сроки и этапы работ
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4 flex-shrink-0">
+                                        <div class="relative w-8 h-8">
+                                            <svg class="hs-accordion-active:opacity-0 absolute inset-0 w-8 h-8 text-gray-400 group-hover:text-blue-600 transition-all duration-300" 
+                                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m6 9 6 6 6-6" />
+                                            </svg>
+                                            <svg class="hs-accordion-active:opacity-100 opacity-0 absolute inset-0 w-8 h-8 text-blue-600 transition-all duration-300" 
+                                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m18 15-6-6-6 6" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            
+                            <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
+                                 class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-700 ease-out"
+                                 role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
+                                <div class="px-8 pb-8">
+                                    <div class="border-l-4 border-blue-500 pl-6 ml-7">
+                                        <p class="text-gray-700 leading-relaxed text-lg">
+                                            Сроки зависят от сложности и объема работ. Проектирование занимает от 2 до 6 недель, монтажные работы - от 1 до 6 месяцев. После согласования технического задания мы предоставим точный график выполнения работ.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Items 3-6 with similar structure but different colors -->
+                    <!-- FAQ Item 3 -->
+                    <div class="hs-accordion group" id="hs-basic-with-title-and-arrow-stretched-heading-three">
+                        <div class="bg-white/90 backdrop-blur-xl rounded-3xl border border-white/20 shadow-2xl hover:shadow-3xl transition-all duration-700 group-hover:border-orange-200/50 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-r from-orange-500/10 via-transparent to-red-500/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <button class="hs-accordion-toggle w-full p-8 text-left focus:outline-none relative z-10"
+                                    aria-expanded="false"
+                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-6">
+                                        <div class="relative">
+                                            <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center text-white font-bold text-lg shadow-xl group-hover:scale-110 transition-transform duration-500">03</div>
+                                            <div class="absolute inset-0 bg-orange-400/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-orange-700 transition-colors duration-300">Как формируется стоимость работ?</h3>
+                                            <div class="text-sm text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Принципы ценообразования</div>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4 flex-shrink-0">
+                                        <div class="relative w-8 h-8">
+                                            <svg class="hs-accordion-active:opacity-0 absolute inset-0 w-8 h-8 text-gray-400 group-hover:text-orange-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m6 9 6 6 6-6" />
+                                            </svg>
+                                            <svg class="hs-accordion-active:opacity-100 opacity-0 absolute inset-0 w-8 h-8 text-orange-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m18 15-6-6-6 6" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            
+                            <div id="hs-basic-with-title-and-arrow-stretched-collapse-three"
+                                 class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-700 ease-out"
+                                 role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
+                                <div class="px-8 pb-8">
+                                    <div class="border-l-4 border-orange-500 pl-6 ml-7">
+                                        <p class="text-gray-700 leading-relaxed text-lg">Стоимость рассчитывается индивидуально на основе площади объекта, сложности инженерных систем, используемых материалов и оборудования. Предоставляем детальную смету с разбивкой по всем статьям расходов.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="hs-accordion group" id="hs-basic-with-title-and-arrow-stretched-heading-four">
+                        <div class="bg-white/90 backdrop-blur-xl rounded-3xl border border-white/20 shadow-2xl hover:shadow-3xl transition-all duration-700 group-hover:border-purple-200/50 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 via-transparent to-pink-500/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <button class="hs-accordion-toggle w-full p-8 text-left focus:outline-none relative z-10"
+                                    aria-expanded="false"
+                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-6">
+                                        <div class="relative">
+                                            <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center text-white font-bold text-lg shadow-xl group-hover:scale-110 transition-transform duration-500">04</div>
+                                            <div class="absolute inset-0 bg-purple-400/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-purple-700 transition-colors duration-300">Предоставляете ли вы гарантию на выполненные работы?</h3>
+                                            <div class="text-sm text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Гарантийные обязательства</div>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4 flex-shrink-0">
+                                        <div class="relative w-8 h-8">
+                                            <svg class="hs-accordion-active:opacity-0 absolute inset-0 w-8 h-8 text-gray-400 group-hover:text-purple-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m6 9 6 6 6-6" />
+                                            </svg>
+                                            <svg class="hs-accordion-active:opacity-100 opacity-0 absolute inset-0 w-8 h-8 text-purple-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m18 15-6-6-6 6" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            
+                            <div id="hs-basic-with-title-and-arrow-stretched-collapse-four"
+                                 class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-700 ease-out"
+                                 role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four">
+                                <div class="px-8 pb-8">
+                                    <div class="border-l-4 border-purple-500 pl-6 ml-7">
+                                        <p class="text-gray-700 leading-relaxed text-lg">Да, мы предоставляем гарантию на все виды выполненных работ сроком от 2 до 5 лет в зависимости от типа инженерных систем. Также осуществляем послегарантийное обслуживание и техническую поддержку.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="hs-accordion group" id="hs-basic-with-title-and-arrow-stretched-heading-five">
+                        <div class="bg-white/90 backdrop-blur-xl rounded-3xl border border-white/20 shadow-2xl hover:shadow-3xl transition-all duration-700 group-hover:border-teal-200/50 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-r from-teal-500/10 via-transparent to-cyan-500/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <button class="hs-accordion-toggle w-full p-8 text-left focus:outline-none relative z-10"
+                                    aria-expanded="false"
+                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-6">
+                                        <div class="relative">
+                                            <div class="w-14 h-14 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-2xl flex items-center justify-center text-white font-bold text-lg shadow-xl group-hover:scale-110 transition-transform duration-500">05</div>
+                                            <div class="absolute inset-0 bg-teal-400/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-teal-700 transition-colors duration-300">Можете ли работать с уже существующими проектами?</h3>
+                                            <div class="text-sm text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Работа с готовыми проектами</div>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4 flex-shrink-0">
+                                        <div class="relative w-8 h-8">
+                                            <svg class="hs-accordion-active:opacity-0 absolute inset-0 w-8 h-8 text-gray-400 group-hover:text-teal-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m6 9 6 6 6-6" />
+                                            </svg>
+                                            <svg class="hs-accordion-active:opacity-100 opacity-0 absolute inset-0 w-8 h-8 text-teal-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m18 15-6-6-6 6" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            
+                            <div id="hs-basic-with-title-and-arrow-stretched-collapse-five"
+                                 class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-700 ease-out"
+                                 role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five">
+                                <div class="px-8 pb-8">
+                                    <div class="border-l-4 border-teal-500 pl-6 ml-7">
+                                        <p class="text-gray-700 leading-relaxed text-lg">Конечно! Мы можем работать как с готовыми проектами других проектных организаций, так и дорабатывать существующую проектную документацию. Проводим экспертизу проектов и предлагаем оптимизацию решений.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="hs-accordion group" id="hs-basic-with-title-and-arrow-stretched-heading-six">
+                        <div class="bg-white/90 backdrop-blur-xl rounded-3xl border border-white/20 shadow-2xl hover:shadow-3xl transition-all duration-700 group-hover:border-rose-200/50 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-r from-rose-500/10 via-transparent to-pink-500/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <button class="hs-accordion-toggle w-full p-8 text-left focus:outline-none relative z-10"
+                                    aria-expanded="false"
+                                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-6">
+                                        <div class="relative">
+                                            <div class="w-14 h-14 bg-gradient-to-br from-rose-500 to-pink-600 rounded-2xl flex items-center justify-center text-white font-bold text-lg shadow-xl group-hover:scale-110 transition-transform duration-500">06</div>
+                                            <div class="absolute inset-0 bg-rose-400/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-rose-700 transition-colors duration-300">Как получить консультацию или заказать услуги?</h3>
+                                            <div class="text-sm text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Способы связи и заказа</div>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4 flex-shrink-0">
+                                        <div class="relative w-8 h-8">
+                                            <svg class="hs-accordion-active:opacity-0 absolute inset-0 w-8 h-8 text-gray-400 group-hover:text-rose-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m6 9 6 6 6-6" />
+                                            </svg>
+                                            <svg class="hs-accordion-active:opacity-100 opacity-0 absolute inset-0 w-8 h-8 text-rose-600 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m18 15-6-6-6 6" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            
+                            <div id="hs-basic-with-title-and-arrow-stretched-collapse-six"
+                                 class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-700 ease-out"
+                                 role="region" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six">
+                                <div class="px-8 pb-8">
+                                    <div class="border-l-4 border-rose-500 pl-6 ml-7">
+                                        <p class="text-gray-700 leading-relaxed text-lg mb-4">
+                                            Вы можете связаться с нами по телефону +7 (967) 214-56-69, написать на электронную почту termostroy2018@yandex.ru или оставить заявку через форму обратной связи на сайте. Первичная консультация предоставляется бесплатно.
+                                        </p>
+                                        
+                                        <!-- Contact Methods -->
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                                            <a href="tel:+79672145669" class="flex items-center p-3 bg-green-50 hover:bg-green-100 rounded-xl transition-colors duration-300 group/contact">
+                                                <div class="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center mr-3 group-hover/contact:scale-110 transition-transform duration-300">
+                                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold text-green-800">Телефон</div>
+                                                    <div class="text-sm text-green-600">+7 (967) 214-56-69</div>
+                                                </div>
+                                            </a>
+                                            
+                                            <a href="mailto:termostroy2018@yandex.ru" class="flex items-center p-3 bg-blue-50 hover:bg-blue-100 rounded-xl transition-colors duration-300 group/contact">
+                                                <div class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center mr-3 group-hover/contact:scale-110 transition-transform duration-300">
+                                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold text-blue-800">Email</div>
+                                                    <div class="text-sm text-blue-600">termostroy2018@yandex.ru</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- End Grid -->
             </div>
-            <!-- End FAQ -->
+        </div>
+    </div>
+</div>
+
+
 
 
             <!-- Card Blog -->
@@ -882,6 +1245,70 @@
                 carousel.init();
             });
         </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Enhanced accordion behavior
+    const accordionButtons = document.querySelectorAll('.hs-accordion-toggle');
+    
+    accordionButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Add ripple effect
+            const ripple = document.createElement('div');
+            ripple.className = 'absolute inset-0 bg-white/20 rounded-full transform scale-0 animate-ping';
+            this.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+        
+        // Enhanced keyboard navigation
+        button.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                this.click();
+            }
+        });
+    });
+    
+    // Intersection Observer for reveal animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+    
+    // Observe all FAQ items
+    document.querySelectorAll('.hs-accordion').forEach(item => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(20px)';
+        item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(item);
+    });
+    
+    // Performance optimization: Preload hover states
+    const preloadHoverStates = () => {
+        const style = document.createElement('style');
+        style.textContent = `
+            .group:hover .w-14 { transform: scale(1.1) rotate(5deg); }
+            .group:hover .shadow-2xl { box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25); }
+        `;
+        document.head.appendChild(style);
+    };
+    
+    // Delay preload to avoid blocking initial render
+    setTimeout(preloadHoverStates, 100);
+});
+</script>
 
 
     </body>
