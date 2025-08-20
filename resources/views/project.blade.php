@@ -8,7 +8,12 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <!-- Chap rasm -->
         <div>
-            <img src="{{ asset('images/page_2.png') }}" alt="Building" class="w-full rounded-lg shadow-lg">
+            <!-- <img src="{{ asset('images/page_2.png') }}" alt="Building" class="w-full rounded-lg shadow-lg"> -->
+        <img src="{{ asset('images/page_2.png') }}" 
+        alt="Building" 
+        class="w-full rounded-lg shadow-lg"
+        loading="lazy">
+        
         </div>
 
         <!-- Project Steps List -->

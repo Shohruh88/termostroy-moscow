@@ -49,16 +49,16 @@
             <!-- Moscow Business Center -->
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                 <div class="aspect-[4/3] bg-cover bg-center relative" 
-                     style="background-image: url('{{ asset('images/moscow_night.jpg') }}')">
+                     style="background-image: url('{{ asset('images/olimp_park/Olympia_Park.webp') }}')">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300"></div>
                     
                     <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
                         <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
                             <span class="inline-block bg-purple-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">БИЗНЕС-ЦЕНТР</span>
-                            <h3 class="text-2xl font-bold mb-2">Moscow Business Center</h3>
-                            <p class="text-sm opacity-90 mb-4">Москва-Сити • 45 этажей • 2023</p>
+                            <h3 class="text-2xl font-bold mb-2">Олимпия Парк</h3>
+                            <p class="text-sm opacity-90 mb-4">Центральный телеграф Тверская улица, 7</p>
                             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <a href="#" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                <a href="{{ route('OlimpPark') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
                                     Подробнее
                                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -82,7 +82,7 @@
                             <h3 class="text-2xl font-bold mb-2">Prestige Residence</h3>
                             <p class="text-sm opacity-90 mb-4">Пресненский район • 35 этажей • 2022</p>
                             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <a href="#" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                <a href="{{ route('Telegraf') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
                                     Подробнее
                                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -125,7 +125,9 @@
 
             <!-- Office Complex -->
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative">
+                <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
+                                     style="background-image: url('{{ asset('images/sberbank/ТермоСтрой_КАТАЛОГ.png') }}')">>
+                    
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="text-center text-white">
                             <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -140,10 +142,10 @@
                     <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
                         <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
                             <span class="inline-block bg-teal-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">ОФИСНЫЙ ЦЕНТР</span>
-                            <h3 class="text-2xl font-bold mb-2">Business Plaza</h3>
-                            <p class="text-sm opacity-90 mb-4">Тверской район • 28 этажей • 2021</p>
+                            <h3 class="text-2xl font-bold mb-2">Здание Сбербанк-Сити</h3>
+                            <p class="text-sm opacity-90 mb-4">Адрес Кутузовский проспект, д.32</p>
                             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <a href="#" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                <a href="{{ route('Sberbank') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
                                     Подробнее
                                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -305,7 +307,6 @@ document.addEventListener('DOMContentLoaded', function() {
         <img class="w-full h-auto object-cover" src="{{ asset('images/page_16.png') }}" alt="Gallery Image">
       </div>
       <div class="space-y-2">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/moscow-city.jpg') }}" alt="Gallery Image">
         <img class="w-full h-auto object-cover" src="{{ asset('images/page_10.png') }}" alt="Gallery Image">
         <img class="w-full h-auto object-cover" src="{{ asset('images/page_11.png') }}" alt="Gallery Image">
       </div>

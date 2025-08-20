@@ -10,6 +10,18 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ asset('images/logo-termo.png') }}">
 
+    
+<!-- JSON-LD structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Termostroy Moscow",
+  "url": "https://termostroy.moscow",
+  "logo": "{{ asset('images/logo-termo.png') }}"
+}
+</script>
+
     <title>@yield('title', 'Creative Agency')</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])

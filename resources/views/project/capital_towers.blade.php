@@ -144,7 +144,7 @@
             <!-- Image -->
             <div class="order-2 lg:order-1">
                 <img src="{{ asset('images/capital_towers/1.webp') }}" alt="Capital Towers Building" 
-                     class="w-full rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500">
+                     class="w-full rounded-2xl shadow-2xl  transform hover:scale-105 transition-transform duration-500 loading='lazy'">
             </div>
 
             <!-- Process Steps -->

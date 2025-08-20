@@ -20,7 +20,7 @@
         <meta name="twitter:site" content="@preline">
         <meta name="twitter:creator" content="@preline">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Creative Agency Tailwind CSS Template | Preline UI, crafted with Tailwind CSS">
+        <meta name="termostroy" content="Termostroy moscow">
         <meta name="twitter:description"
             content="Designed for creative agencies to showcase bold, innovative designs and elevate visual elements.">
         <meta name="twitter:image" content="https://preline.co/assets/img/og-image.png">
@@ -44,7 +44,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
         <!-- Theme Check and Update -->
-        <script>
+        <!-- <script>
             const html = document.querySelector('html');
             const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') ===
                 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -55,15 +55,17 @@
             else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
             else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
             else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
-        </script>
+        </script> -->
 
         {{-- tailwindcss --}}
-        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
         <!-- CSS Preline -->
-        <link rel="stylesheet" href="https://preline.co/assets/css/main.min.css">
+        <!-- <link rel="stylesheet" href="https://preline.co/assets/css/main.min.css"> -->
 
         <!-- Advanced Custom Styles -->
+         <!-- @vite(['resources/css/app.css', 'resources/js/app.js']) -->
+
 <style>
 /* Glassmorphism Advanced */
 .backdrop-blur-xl {

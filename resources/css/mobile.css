@@ -1,0 +1,10 @@
+/* resources/css/mobile.css */
+@media (max-width: 768px) {
+    .animate-marquee {
+        animation-duration: 20s;
+    }
+    
+    .h-120 {
+        height: 50vh;
+    }
+}

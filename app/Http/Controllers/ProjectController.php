@@ -14,4 +14,16 @@ class ProjectController extends Controller
     public function CapitalTowers(){
         return view('project.capital_towers');
     }
+
+      public function OlimpPark(){
+        return view('project.olimpiya_park');
+    }
+
+    public function Sberbank(){
+        return view('project.sberbank');
+    }
+
+    public function Telegraf(){
+        return view('project.telegraf');
+    }
 }

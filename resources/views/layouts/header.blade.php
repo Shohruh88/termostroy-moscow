@@ -14,6 +14,10 @@
             <a class="nav-link" href="{{ route('service') }}">{{ __('site.services') }}</a>
             <a class="nav-link" href="{{ route('aboutUs') }}">{{ __('site.about') }}</a>
             <a class="nav-link" href="{{ route('projects') }}">{{ __('site.projects') }}</a>
+            
+                    <a class="inline-block nav-link text-black hover:text-gray-600"
+                        href="{{ route('inzhenernye') }}">Инженерные системы</a>
+                
             <a class="nav-link" href="{{ route('contact') }}">{{ __('site.contact') }}</a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <img src="/images/media/instagram.png" class="h-6 w-6" alt="Instagram">

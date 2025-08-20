@@ -27,6 +27,8 @@ Route::group([
     Route::get('/aboutUs', [HomeController::class, 'aboutUs'])->name('aboutUs');
 
     Route::get('/project', [HomeController::class, 'project'])->name('project');
+    
+    Route::get('/inzhenernye-sistemy', [HomeController::class, 'inzhenernye'])->name('inzhenernye');
 
     Route::get('/projects', function () {
         return view('projects');
@@ -34,5 +36,10 @@ Route::group([
 
     Route::get('/capital-towers', [ProjectController::class, 'CapitalTowers'])->name('CapitalTowers');
 
+    Route::get('/olimp-park', [ProjectController::class, 'OlimpPark'])->name('OlimpPark');
+
+    Route::get('/telegraf', [ProjectController::class, 'Telegraf'])->name('Telegraf');
+
+    Route::get('/sberbank', [ProjectController::class, 'Sberbank'])->name('Sberbank');
 
 });
