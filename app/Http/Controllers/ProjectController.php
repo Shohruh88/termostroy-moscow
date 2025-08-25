@@ -26,4 +26,8 @@ class ProjectController extends Controller
     public function Telegraf(){
         return view('project.telegraf');
     }
+
+     public function Arcus(){
+        return view('project.arcus');
+    }
 }

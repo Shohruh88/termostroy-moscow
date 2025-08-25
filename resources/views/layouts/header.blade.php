@@ -3,40 +3,17 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-<header class="relative z-50 bg-white shadow-sm">
-    <nav class="relative max-w-8xl w-full flex items-center justify-between h-24 px-4 md:px-6 mx-auto">
-        <a class="flex-none" href="/" aria-label="Preline">
-            <img class="logo-img" width="96" height="72" src="/images/logo-termo.png" alt="Logo">
-        </a>
-
-        <div class="hidden lg:flex items-center gap-x-7">
-            <a class="nav-link" href="/">{{ __('site.home') }}</a>
-            <a class="nav-link" href="{{ route('service') }}">{{ __('site.services') }}</a>
-            <a class="nav-link" href="{{ route('aboutUs') }}">{{ __('site.about') }}</a>
-            <a class="nav-link" href="{{ route('projects') }}">{{ __('site.projects') }}</a>
-            
-                    <a class="inline-block nav-link text-black hover:text-gray-600"
-                        href="{{ route('inzhenernye') }}">Инженерные системы</a>
-                
-            <a class="nav-link" href="{{ route('contact') }}">{{ __('site.contact') }}</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src="/images/media/instagram.png" class="h-6 w-6" alt="Instagram">
+<header class="relative flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full">
+    <nav
+        class="relative max-w-8xl w-full flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 mx-auto">
+        <div class="relative lg:col-span-3 flex items-center justify-between w-full lg:w-auto z-10 bg-white">
+            <a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
+                href="/" aria-label="Preline">
+                <img class="logo-img" width="96" height="72" src="/images/logo-termo.png" alt="Logo">
             </a>
-        </div>
-
-        <div class="hidden lg:flex items-center gap-x-3">
-            @php $currentLang = session('locale', 'ru'); @endphp
-            <button onclick="changeLang('ru')"
-                class="{{ $currentLang == 'ru' ? 'bg-lime-400 text-black' : 'bg-gray-200' }} px-3 py-2 rounded">RU</button>
-            <button onclick="changeLang('turk')"
-                class="{{ $currentLang == 'turk' ? 'bg-lime-400 text-black' : 'bg-gray-200' }} px-3 py-2 rounded">TR</button>
-            <button onclick="changeLang('en')"
-                class="{{ $currentLang == 'en' ? 'bg-lime-400 text-black' : 'bg-gray-200' }} px-3 py-2 rounded">EN</button>
-        </div>
-
-        <div class="lg:hidden">
             <button id="mobile-menu-toggle" type="button"
-                class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-200">
+                class="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lime-400"
+                aria-controls="mobile-menu" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="h-6 w-6" id="mobile-menu-open-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
@@ -48,31 +25,61 @@
                 </svg>
             </button>
         </div>
-    </nav>
 
-    <div id="mobile-menu"
-        class="lg:hidden absolute top-full left-0 w-full h-[calc(100vh-6rem)] bg-white overflow-y-auto transform -translate-x-full transition-transform duration-300 ease-in-out">
-        <div class="p-6 flex flex-col gap-y-5">
-            <a class="nav-link" href="/">{{ __('site.home') }}</a>
-            <a class="nav-link" href="{{ route('service') }}">{{ __('site.services') }}</a>
-            <a class="nav-link" href="{{ route('aboutUs') }}">{{ __('site.about') }}</a>
-            <a class="nav-link" href="{{ route('projects') }}">{{ __('site.projects') }}</a>
-            <a class="nav-link" href="{{ route('contact') }}">{{ __('site.contact') }}</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src="/images/media/instagram.png" class="h-6 w-6" alt="Instagram">
-            </a>
+        <div id="mobile-menu"
+            class="fixed inset-0 lg:static lg:block h-full w-full lg:h-auto lg:w-auto transform -translate-x-full transition-transform duration-300 ease-in-out lg:translate-x-0 bg-white lg:bg-transparent lg:col-span-8 lg:order-2">
+            <div
+                class="flex flex-col h-full lg:flex-row lg:justify-start lg:items-center gap-y-4 lg:gap-x-7 px-6 pt-24 lg:p-0">
+                <div>
+                    <a class="relative inline-block nav-link text-black focus:outline-hidden dark:text-black"
+                        href="/" aria-current="page">{{ __('site.home') }}</a>
+                </div>
+                <div>
+                    <a class="inline-block nav-link text-black hover:text-gray-600"
+                        href="{{ route('service') }}">{{ __('site.services') }}</a>
+                </div>
+                <div>
+                    <a class="inline-block nav-link text-black hover:text-gray-600"
+                        href="{{ route('aboutUs') }}">{{ __('site.about') }}</a>
+                </div>
+                <div>
+                    <a class="inline-block nav-link text-black hover:text-gray-600"
+                        href="{{ route('projects') }}">{{ __('site.projects') }}</a>
+                </div>
+                 <div>
+                    <a class="inline-block nav-link text-black hover:text-gray-600"
+                        href="{{ route('inzhenernye') }}">{{ __('site.mechanical') }}</a>
+                </div>
+                <div>
+                    <a class="inline-block nav-link text-black hover:text-gray-600"
+                        href="{{ route('contact') }}">{{ __('site.contact') }}</a>
+                </div>
+                <div class="h-6 w-6 min-h-[24px] min-w-[24px]">
+                    <a href="https://instagram.com" target="_blank" class="w-full h-full flex"
+                        rel="noopener noreferrer">
+                        <img src="/images/media/instagram.png" class="object-contain w-full h-full" alt="Instagram">
+                    </a>
+                </div>
 
-            <div class="border-t border-gray-200 pt-5 mt-3 flex items-center gap-x-3">
-                @php $currentLang = session('locale', 'ru'); @endphp
-                <button onclick="changeLang('ru')"
-                    class="{{ $currentLang == 'ru' ? 'bg-lime-400 text-black' : 'bg-gray-200' }} px-3 py-2 rounded">RU</button>
-                <button onclick="changeLang('turk')"
-                    class="{{ $currentLang == 'turk' ? 'bg-lime-400 text-black' : 'bg-gray-200' }} px-3 py-2 rounded">TR</button>
-                <button onclick="changeLang('en')"
-                    class="{{ $currentLang == 'en' ? 'bg-lime-400 text-black' : 'bg-gray-200' }} px-3 py-2 rounded">EN</button>
+                <div class="mt-8 lg:mt-0 flex items-center gap-x-3 lg:ms-auto">
+                    @php $currentLang = session('locale', 'ru'); @endphp
+                    <button onclick="changeLang('ru')"
+                        class="{{ $currentLang == 'ru' ? 'bg-lime-400 text-black border-green-500 border' : 'bg-gray-200 border border-gray-500' }} rounded-full ">
+                           <img src="images/flag/Flag_of_Russia.png" class="w-[30px] h-[30px] rounded-full"  alt="ru flag">
+                    </button>
+                    <button onclick="changeLang('turk')"
+                        class="{{ $currentLang == 'turk' ? 'bg-lime-400 text-black border-green-500 border' : 'bg-gray-200 border border-gray-500' }} rounded-full">
+                                            <img src="images/flag/Flag_of_Turkey.png" class="w-[30px] h-[30px] rounded-full"  alt="tr flag">
+                    </button>
+
+                    <button onclick="changeLang('en')"
+                        class="{{ $currentLang == 'en' ? 'bg-lime-400 text-black border-green-500 border' : 'bg-gray-200 border border-gray-500' }} rounded-full ">
+                        <img src="images/flag/Flag_of_England.png" class="w-[30px] h-[30px] rounded-full"  alt="en flag">
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
 </header>
 
 <script>
@@ -83,10 +90,14 @@
         const closeIcon = document.getElementById('mobile-menu-close-icon');
 
         menuToggle?.addEventListener('click', function() {
+            // Menyuni chapdan o'ngga siljitish uchun klassni o'zgartiramiz
             menu.classList.toggle('-translate-x-full');
-            menu.classList.toggle('duration-300');
+
+            // Ikonkalarni almashtirish
             openIcon.classList.toggle('hidden');
             closeIcon.classList.toggle('hidden');
+
+            // Orqa fon scroll bo'lishini oldini olish
             document.body.classList.toggle('overflow-hidden');
         });
     });

@@ -3,7 +3,7 @@
       <div>
         <h2 class="text-lg font-semibold mb-4">Компания</h2>
         <ul class="space-y-2">
-          <li><a href="#" class="hover:underline">О нас</a></li>
+          <li><a href="{{ route('aboutUs') }}" class="hover:underline">О нас</a></li>
           <li><a href="#" class="hover:underline">Вакансии</a></li>
           <li><a href="#" class="hover:underline">Блог</a></li>
         </ul>
@@ -11,7 +11,7 @@
       <div>
         <h2 class="text-lg font-semibold mb-4">Поддержка</h2>
         <ul class="space-y-2">
-          <li><a href="#" class="hover:underline">Контакты</a></li>
+          <li><a href="{{ route('contact') }}" class="hover:underline">Контакты</a></li>
           <li><a href="#" class="hover:underline">Вопросы и ответы</a></li>
           <li><a href="#" class="hover:underline">Политика конфиденциальности</a></li>
         </ul>

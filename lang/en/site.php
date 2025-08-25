@@ -10,6 +10,6 @@ return [
         'OurPartners' => 'Our Partners',
 
         'OurProjects' => 'Our Projects',
-
+        'mechanical' => 'Mechanical systems'
 
 ];

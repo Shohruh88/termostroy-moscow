@@ -41,5 +41,6 @@ Route::group([
     Route::get('/telegraf', [ProjectController::class, 'Telegraf'])->name('Telegraf');
 
     Route::get('/sberbank', [ProjectController::class, 'Sberbank'])->name('Sberbank');
-
+    
+    Route::get('/arcus', [ProjectController::class, 'Arcus'])->name('Arcus');
 });

@@ -7,6 +7,6 @@ return[
     'contact' => "İLETİŞİM",
     'projects' => 'PROJELER',
     'OurPartners' => 'İş Ortaklarımız',
-
+    'mechanical' => 'Mekanik sistemler',
     'OurProjects' => 'Projelerimiz',
 ];

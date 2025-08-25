@@ -1,4 +1,4 @@
-{{-- Sayt ishlab chiqilmoqda banneri --}}
+<!-- {{-- Sayt ishlab chiqilmoqda banneri --}}
 <div class="maintenance-banner">
     <div class="maintenance-content">
         <span class="construction-icon">🚧</span>
@@ -86,4 +86,4 @@
         }
     }
 </style>
-{{-- End of maintenance banner --}}
+{{-- End of maintenance banner --}} -->
