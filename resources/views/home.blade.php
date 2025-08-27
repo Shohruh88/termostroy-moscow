@@ -169,35 +169,36 @@
 </style>
     </head>
 
-    <body class="dark:bg-neutral-900">
+    <body class="dark:bg-neutral-900  h-screen">
 
 
         <!-- ========== MAIN CONTENT ========== -->
         <main id="content">
-            <!-- Slider -->
-            <div class="px-4 sm:px-6 lg:px-8 ">
+            
+        <!-- Slider -->
+            <div class="w-full">
                 <div data-hs-carousel='{
                         "loadingClasses": "opacity-0",
                         "isAutoPlay": true,
                         "speed": 5000
                     }' class="relative">
                     <div
-                        class="hs-carousel relative overflow-hidden w-full h-120 md:h-[calc(100vh-106px)] bg-gray-100 rounded-2xl dark:bg-neutral-800">
+                        class="hs-carousel  relative overflow-hidden w-full h-screen bg-gray-100  dark:bg-neutral-800">
                         <div
-                            class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
+                            class="hs-carousel-body h-full absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
 
 
                             <!-- Item -->
                             <div class="hs-carousel-slide">
                                 <div
-                                    class="h-120 md:h-[calc(100vh-106px)] flex flex-col bg-moscow bg-cover bg-center bg-no-repeat">
+                                    class="h-120 md:h-[calc(100vh)] flex flex-col bg-moscow bg-cover bg-center bg-no-repeat">
                                     <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                                         <span class="block text-white"></span>
                                         <span class="block text-white text-xl md:text-3xl">Центральный телеграф</span>
                                         <div class="mt-5">
                                             <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
-                                                href="{{ route('contact') }}">
-                                                {{ __('site.contact') }}
+                                                href="{{ route('Telegraf') }}">
+                                                Подробнее
                                             </a>
                                         </div>
                                     </div>
@@ -208,14 +209,14 @@
                             <!-- Item -->
                             <div class="hs-carousel-slide">
                                 <div
-                                    class="h-120 md:h-[calc(100vh-106px)] flex flex-col bg-moscow_night bg-cover bg-center bg-no-repeat">
+                                    class="h-120 md:h-[calc(100vh)] flex flex-col bg-moscow_night bg-cover bg-center bg-no-repeat">
                                     <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                                         <span class="block text-white">Moscow</span>
-                                        {{-- <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span> --}}
                                         <div class="mt-5">
-                                            {{-- <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
-                                          Read Case Studies
-                                        </a> --}}
+                                             <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                                                href="{{ route('projects') }}">
+                                                Подробнее
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -224,30 +225,39 @@
                             <!-- Item -->
                             <div class="hs-carousel-slide">
                                 <div
-                                    class="h-120 md:h-[calc(100vh-106px)] flex flex-col bg-moscow__second bg-cover bg-center bg-no-repeat">
+                                    class="h-120 md:h-[calc(100vh)] flex flex-col bg-moscow__second bg-cover bg-center bg-no-repeat">
                                     <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
                                         <span class="block text-white">ЖК Capital Towers</span>
-                                        {{-- <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span> --}}
-                                        <div class="mt-5">
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="hs-carousel-slide">
-                                <div
-                                    class="h-120 md:h-[calc(100vh-106px)] flex flex-col bg-moscow__second bg-cover bg-center bg-no-repeat">
-                                    <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-                                        <span class="block text-white">ЖК Capital Towers</span>
-                                        {{-- <span class="block text-white text-xl md:text-3xl">Bringing Art to everything</span> --}}
-                                        <div class="mt-5">
-                                           
+                                   
+                                         <div class="mt-5">
+                                             <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                                                href="{{ route('CapitalTowers') }}">
+                                                Подробнее
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- End Item -->
+                        
+                                <!-- Item -->
+                            <div class="hs-carousel-slide">
+                                <div
+                                    class="h-120 md:h-[calc(100vh)] flex flex-col bg-bg_arcus bg-cover bg-center bg-no-repeat">
+                                    <div class="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
+                                        <span class="block text-white">Arcos</span>
+
+                                        <div class="mt-5">
+                                            <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+                                                href="{{ route('Arcus') }}">
+                                                Подробнее
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Item -->
+                             
 
 
                         </div>

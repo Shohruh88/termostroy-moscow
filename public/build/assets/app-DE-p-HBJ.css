@@ -1033,6 +1033,15 @@ img, video {
 .bg-moscow_night {
     background-image: url(/images/arch.webp)
 }
+/* .bg-moscow__second {
+    background-image: url(/images/arcus/Arcus.webp)
+} */
+
+.bg-bg_arcus {
+    background-image: url(/images/arcus/Arcus.webp)
+}
+
+
 
 .bg-cover {
     background-size: cover

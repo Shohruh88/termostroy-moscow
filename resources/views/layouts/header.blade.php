@@ -3,13 +3,12 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-<header class="relative flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full">
+<header class="fixed z-50 flex flex-wrap bg-[#ffffff80] lg:justify-start lg:flex-nowrap w-full">
     <nav
         class="relative max-w-8xl w-full flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 mx-auto">
-        <div class="relative lg:col-span-3 flex items-center justify-between w-full lg:w-auto z-10 bg-white">
-            <a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
-                href="/" aria-label="Preline">
-                <img class="logo-img" width="96" height="72" src="/images/logo-termo.png" alt="Logo">
+       <div class="relative lg:col-span-3 flex items-center justify-between w-full lg:w-auto z-50">
+            <a class="relative z-50" href="/" aria-label="Preline">
+                <img class="logo-img relative z-50" width="96" height="72" src="/images/logo-termo.png" alt="Logo">
             </a>
             <button id="mobile-menu-toggle" type="button"
                 class="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lime-400"
@@ -27,9 +26,9 @@
         </div>
 
         <div id="mobile-menu"
-            class="fixed inset-0 lg:static lg:block h-full w-full lg:h-auto lg:w-auto transform -translate-x-full transition-transform duration-300 ease-in-out lg:translate-x-0 bg-white lg:bg-transparent lg:col-span-8 lg:order-2">
+            class="fixed inset-0 lg:static lg:block h-full w-full lg:h-auto lg:w-auto transform -translate-x-full transition-transform duration-300 ease-in-out lg:translate-x-0  lg:bg-transparent lg:col-span-8 lg:order-2">
             <div
-                class="flex flex-col h-full lg:flex-row lg:justify-start lg:items-center gap-y-4 lg:gap-x-7 px-6 pt-24 lg:p-0">
+                class="flex flex-col h-full lg:flex-row lg:justify-start lg:items-center gap-y-4 lg:gap-x-6 px-6 pt-24 lg:p-0">
                 <div>
                     <a class="relative inline-block nav-link text-black focus:outline-hidden dark:text-black"
                         href="/" aria-current="page">{{ __('site.home') }}</a>
@@ -74,7 +73,7 @@
 
                     <button onclick="changeLang('en')"
                         class="{{ $currentLang == 'en' ? 'bg-lime-400 text-black border-green-500 border' : 'bg-gray-200 border border-gray-500' }} rounded-full ">
-                        <img src="images/flag/Flag_of_England.png" class="w-[30px] h-[30px] rounded-full"  alt="en flag">
+                        <img src="images/flag/eng.webp" class="w-[30px] h-[30px] rounded-full"  alt="en flag">
                     </button>
                 </div>
             </div>

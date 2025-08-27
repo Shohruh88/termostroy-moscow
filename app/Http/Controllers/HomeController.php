@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Slider; // Eloquent model import
 class HomeController extends Controller
 {
     public function index(){
+        $sliders = Slider::all(); // Eloquent ORM bilan DBdan ma'lumotlarni olish
         return view('home');
     }
 

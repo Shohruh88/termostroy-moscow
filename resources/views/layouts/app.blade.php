@@ -10,7 +10,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ asset('images/logo-termo.png') }}">
 
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet"/>
+
 <!-- JSON-LD structured data -->
 <script type="application/ld+json">
 {
@@ -117,6 +118,8 @@
     </script>
 
     @stack('scripts')
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 </body>
 
