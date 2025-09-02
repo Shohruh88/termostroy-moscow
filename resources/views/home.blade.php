@@ -299,11 +299,10 @@
             <section id="about" class="py-20 bg-white">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center mb-16" data-aos="fade-right">
-                        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Наша миссия</h2>
+                        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{{ __('site.mission') }}</h2>
                         <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
                         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Предоставление услуг инвестиционным и подрядным организациям, путем оказания технической
-                            поддержки и создания оптимальных решений
+                            {{ __('site.missionText') }}
                         </p>
                     </div>
 
@@ -314,8 +313,8 @@
                                     <i class="fas fa-medal text-blue-600 text-xl"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">20 лет опыта</h3>
-                                    <p class="text-gray-600">В разработке и реализации сложных инженерных проектов</p>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">{{ __('site.20yil') }}</h3>
+                                    <p class="text-gray-600">{{ __('site.20yilText') }}</p>
                                 </div>
                             </div>
 
@@ -324,8 +323,8 @@
                                     <i class="fas fa-building text-blue-600 text-xl"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Более 2 млн м²</h3>
-                                    <p class="text-gray-600">Построено с момента основания компании</p>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">{{ __('site.million2') }}</h3>
+                                    <p class="text-gray-600">{{ __('site.textMillon2') }}</p>
                                 </div>
                             </div>
 
@@ -334,8 +333,8 @@
                                     <i class="fas fa-users text-blue-600 text-xl"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Профессиональная команда</h3>
-                                    <p class="text-gray-600">Высококвалифицированные специалисты с многолетним опытом</p>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">{{ __('site.professional') }}</h3>
+                                    <p class="text-gray-600">{{ __('site.professionalText') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -345,7 +344,7 @@
                             <div class="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-lg shadow-xl">
                                 <div class="text-center">
                                     <div class="text-3xl font-bold">100+</div>
-                                    <div class="text-sm">Завершенных проектов</div>
+                                    <div class="text-sm">{{ __('site.Successfully') }}</div>
                                 </div>
                             </div>
                         </div>
@@ -619,7 +618,7 @@
 
             <!-- FAQ -->
   <!-- Premium FAQ Section - Enterprise Level Design -->
-<div class="relative bg-gradient-to-br from-slate-50 via-white to-blue-50 py-20 overflow-hidden">
+<div class="relative bg-gradient-to-br from-slate-50 via-white to-blue-50 py-20 overflow-hidden" id="FAQ">
     <!-- Geometric Background -->
     <div class="absolute inset-0 opacity-[0.03]">
         <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">

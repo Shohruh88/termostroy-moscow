@@ -3,7 +3,8 @@
 @section('title', 'Олимпия Парк - Termostroy')
 
 @section('content')
-
+<br>
+<br>
     <div class="container mx-auto py-10 px-4">
         <!-- Hero Section -->
         <div class="text-center mb-12">
@@ -233,7 +234,16 @@
                 <img src="{{ asset('images/olimp_park/infrastruktura.webp') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <img src="{{ asset('images/olimp_park/olimpiya-park5.webp') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <img src="{{ asset('images/olimp_park/olimpiya-park30.webp') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                
+                <img src="{{ asset('images/stroy/26.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/29.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/27.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/45.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/30.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/31.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/33.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/44.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/stroy/68.jpg') }}" alt="Олимпия Парк" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+
             </div>
         </div>
 
@@ -244,13 +254,28 @@
                 Бизнес-центр «Олимпия Парк» активно сотрудничает с крупными компаниями и организациями, 
                 предоставляя качественные офисные помещения и высокий уровень сервиса.
             </p>
-            <a href="{{ route('contact') }}" class="inline-flex items-center px-6 py-3 bg-lime-600 text-white font-medium rounded-lg hover:bg-lime-700 transition-colors">
+            <!-- <a href="{{ route('contact') }}" class="inline-flex items-center px-6 py-3 bg-lime-600 text-white font-medium rounded-lg hover:bg-lime-700 transition-colors">
                 Связаться с нами
                 <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
+            </a> -->
+        </div>
+
+         <!-- Navigation Links -->
+    <div class="mt-12 text-center">
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="{{ route('projects') }}" 
+               class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-6 py-3 rounded-lg transition duration-300">
+                ← Все проекты
+            </a>
+            <a href="{{ route('contact') }}" 
+               class="bg-lime-400 hover:bg-lime-500 text-white px-6 py-3 rounded-lg transition duration-300">
+                Связаться с нами
             </a>
         </div>
+    </div>
+
     </div>
 
 @endsection

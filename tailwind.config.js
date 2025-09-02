@@ -14,7 +14,7 @@ export default {
           // 'moscow_night': "url('/images/moscow-city_night.webp')",
           'moscow_night': "url('/images/arch.webp')",
           'bg-logo': "url('/images/logo-termo.png')",
-          'tower_moscow': "url('/images/telegraf.jpg')",
+          'tower_moscow': "url('/images/capital_towers/1.webp')",
           'bg_arcus': "url('/images/arcus/Arcus.webp)"
         },
       },

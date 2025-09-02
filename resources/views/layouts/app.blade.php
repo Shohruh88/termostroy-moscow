@@ -33,7 +33,7 @@
         }
 
         .bg-moscow__second {
-            background-image: url('./images/tower-moscow.webp');
+            background-image: url('./images/capital_towers/1.webp');
             background-size: cover;
             background-position: center;
         }

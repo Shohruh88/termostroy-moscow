@@ -9,4 +9,14 @@ return[
     'OurPartners' => 'İş Ortaklarımız',
     'mechanical' => 'Mekanik sistemler',
     'OurProjects' => 'Projelerimiz',
+    'mission' => 'Misyonumuz',
+    'missionText' => 'Yatırım ve müteahhitlik kuruluşlarına teknik destek sağlamak ve en uygun çözümleri geliştirmek suretiyle hizmet sunulması.',
+        '20yil' => '20 yıllık deneyim',
+        '20yilText' => 'Karmaşık mühendislik projelerinin geliştirilmesi ve uygulanmasında',
+        'million2' => '2 milyon m²’den fazla',
+        'textMillon2' => 'Şirketin kuruluşundan bu yana inşa edilmiştir',
+        'professional' => 'Profesyonel ekip',
+        'professionalText' => 'Uzun yıllara dayanan deneyime sahip yüksek nitelikli uzmanlar',
+        'Successfully' => 'Tamamlanmış projeler',
+
 ];

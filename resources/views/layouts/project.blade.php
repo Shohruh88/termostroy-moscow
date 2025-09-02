@@ -43,37 +43,35 @@
         <!-- End Card -->
 
         <!-- Card -->
-        <a class="group flex flex-col focus:outline-hidden" href="{{ route('Telegraf') }}" data-aos="fade-right">
-            <div class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
-                <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-                    src="images/telegraf.jpg" alt="Blog Image">
-            </div>
+        <!-- Card 1 - Telegraf -->
+<!-- Card 1 - Telegraf -->
+    <a class="group flex flex-col focus:outline-hidden" href="{{ route('Telegraf') }}" data-aos="fade-right">
+        <div class="w-full h-80 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+            <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out w-full h-full object-cover rounded-2xl"
+                src="images/telegraf.jpg" alt="Telegraf Image">
+        </div>
 
-            <div class="pt-4">
-                <h3
-                    class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
-                    Центральный телеграф
-                    Тверская улица, 7.
-                </h3>
+    <div class="pt-4">
+        <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
+            Центральный телеграф
+            Тверская улица, 7.
+        </h3>
+    </div>
+</a>
 
-            </div>
-        </a>
-        <!-- End Card -->
+<!-- Card 2 - Sberbank -->
+<a class="group flex flex-col focus:outline-hidden" href="{{ route('Sberbank') }}" data-aos="fade-left">
+    <div class="w-full h-80 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+        <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out w-full h-full object-cover rounded-2xl"
+            src="images/sberbank/1.webp" alt="Sberbank Image">
+    </div>
 
-        <!-- Card -->
-        <a class="group flex flex-col focus:outline-hidden" href="{{ route('projects') }}" data-aos="fade-left">
-            <div class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
-                <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-                    src="images/page_7.png" alt="Blog Image">
-            </div>
-
-            <div class="pt-4">
-                <h3
-                    class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
-                    Группа ПСН Рязанский проспект,2
-                </h3>
-            </div>
-        </a>
+    <div class="pt-4">
+        <h3 class="relative inline-block font-medium text-lg text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-lime-400 before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100 dark:text-black">
+            Здание Сбербанк-Сити
+        </h3>
+    </div>
+</a>
         <!-- End Card -->
     </div>
     <!-- End Card Grid -->

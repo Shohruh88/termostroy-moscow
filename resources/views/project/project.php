@@ -65,7 +65,7 @@
             <div class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
                 <img
                     class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-                    src="images/page_7.png" alt="Blog Image">
+                    src="images/sberbank/ТермоСтрой_КАТАЛОГ.png" alt="Blog Image">
             </div>
 
             <div class="pt-4">

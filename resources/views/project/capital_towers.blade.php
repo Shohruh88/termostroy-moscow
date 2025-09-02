@@ -267,9 +267,30 @@
         </div>
     </div>
 </section>
+<!-- Gallery Section -->
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Галерея проекта</h2>
+            <div class="mx-auto h-1 w-24 bg-gray-900/10 rounded-full"></div>
+        </div>
 
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+            @for($i = 1; $i <= 9; $i++)
+                <a href="{{ asset("images/arcus/$i.jpg") }}" 
+                   data-lightbox="arcus-gallery" 
+                   data-title="Arcus III photo {{ $i }}">
+                    <img src="{{ asset("images/arcus/$i.jpg") }}" 
+                         alt="Arcus III photo {{ $i }}"
+                         class="w-full h-64 object-cover rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
+                         loading="{{ $i === 1 ? 'eager' : 'lazy' }}">
+                </a>
+            @endfor
+        </div>
+    </div>
+</section>
 <!-- Contact CTA Section -->
-<section class="py-20 bg-gradient-to-r from-gray-800 to-gray-900 text-white">
+<!-- <section class="py-20 bg-gradient-to-r from-gray-800 to-gray-900 text-white">
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-4xl font-bold mb-6">Заинтересованы в проекте?</h2>
         <p class="text-xl mb-8 opacity-90">Свяжитесь с нами для получения дополнительной информации</p>
@@ -279,7 +300,22 @@
             Связаться с нами
         </a>
     </div>
-</section>
+</section> -->
+ <!-- Navigation Links -->
+    <div class="mt-12 text-center">
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="{{ route('projects') }}" 
+               class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-6 py-3 rounded-lg transition duration-300">
+                ← Все проекты
+            </a>
+            <a href="{{ route('contact') }}" 
+               class="bg-lime-400 hover:bg-lime-500 text-white px-6 py-3 rounded-lg transition duration-300">
+                Связаться с нами
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

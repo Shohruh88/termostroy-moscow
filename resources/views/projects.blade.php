@@ -190,40 +190,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Luxury Apartments -->
-            <!-- <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                <div class="aspect-[4/3] bg-gradient-to-br from-indigo-600 to-purple-700 relative">
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="text-center text-white">
-                            <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
-                                </svg>
-                            </div>
-                            <p class="text-sm opacity-75">Элитное жилье</p>
-                        </div>
-                    </div>
-                    
-                    <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
-                        <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="inline-block bg-purple-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">ЭЛИТНЫЙ ЖК</span>
-                            <h3 class="text-2xl font-bold mb-2">Бизнес Центр Arcus III</h3>
-                            <p class="text-sm opacity-90 mb-4">Центральный район • 42 этажа • 2020</p>
-                            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                               <img class="w-full h-auto object-cover" src="{{ asset('images/page_7.png') }}" alt="Gallery Image">
-                                <a href="{{ route('Arcus') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
-                                    Подробнее
-                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
         </div>
 
         <!-- Stats Section -->
@@ -327,29 +293,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
-
-<!-- <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
-      <div class="space-y-2">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_1.png') }}" alt="Gallery Image">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_7.png') }}" alt="Gallery Image">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/building.png') }}" alt="Gallery Image">
-      </div>
-      <div class="space-y-2">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_2.png') }}" alt="Gallery Image">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_16.png') }}" alt="Gallery Image">
-      </div>
-      <div class="space-y-2">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_10.png') }}" alt="Gallery Image">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_11.png') }}" alt="Gallery Image">
-      </div>
-      <div class="space-y-2">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_13.png') }}" alt="Gallery Image">
-        <img class="w-full h-auto object-cover" src="{{ asset('images/page_9.png') }}" alt="Gallery Image">
-      </div>
-    </div>
-  </div>
-   -->
 
 @endsection
