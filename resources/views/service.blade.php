@@ -1,0 +1,72 @@
+@extends('layouts.app')
+@section('title', 'Service')
+
+@section('content')
+<div class=" relative bg-cover bg-center bg-no-repeat min-h-[400px]" style="background-image: url('/images/arch.webp');">
+<br>
+<br>
+<br>
+
+
+<section class="text-center my-12">
+    <h1 class="text-4xl font-bold">Наши услуги</h1>
+        <p class="text-gray-600 mt-2">Механические системы</p>
+    <p class="text-gray-600 mt-2">Мы предлагаем следующие виды работ</p>
+</section>
+
+<section class="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-20 my-10">
+    <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Проектирование</h3>
+        <p class="text-gray-600">
+            Мы проектируем все виды инженерных систем жилых и коммерческих зданий.
+            У каждого объекта есть свои особенности и уникальные решения, которые мы используем при проектировании.
+            Мы подготавливаем всю необходимую рабочую документацию, включая сметы, календарные планы работ, спецификации и чертежи.
+            Представленная документация позволяет организовать и запустить строительно-монтажные работы.
+        </p>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Инженерия</h3>
+        <p class="text-gray-600">
+            Наша компания выполняет любые строительно-монтажные работы в сфере инженерии,
+            в соответствии с нормами безопасности и прочими техническими требованиям.
+            Оперативное решение вопросов и привлеченные высококвалифицированные специалисты,
+            позволяют добиться выполнения работ в срок и на высшем уровне.
+        </p>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Эксплуатация</h3>
+        <p class="text-gray-600">
+            На проектировании и строительстве наша работа не заканчивается.
+            Мы оказываем услуги по технической эксплуатации всех систем в объектах недвижимости,
+            как построенных нами, так и сторонними подрядчиками.
+            В свою очередь мы предлагаем оптимальный и комплексный подход к решению любых задач
+            с обеспечением бесперебойной поддержки всех систем жизнеобеспечения объекта.
+        </p>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Работы под ключ</h3>
+        <p class="text-gray-600">
+            Мы выполняем работы по проектированию, монтажным работам в сфере инженерии
+            и последующей эксплуатации зданий под ключ.
+        </p>
+    </div>
+</section>
+
+
+<!-- Card Blog -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- End Card Blog -->
+
+
+
+@endsection
+
+</div>

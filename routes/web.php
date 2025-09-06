@@ -43,4 +43,10 @@ Route::group([
     Route::get('/sberbank', [ProjectController::class, 'Sberbank'])->name('Sberbank');
     
     Route::get('/arcus', [ProjectController::class, 'Arcus'])->name('Arcus');
+
+    Route::get('/sreda', [ProjectController::class, 'Sreda'])->name('Sreda');
+
+    Route::get('/Residence', [ProjectController::class, 'Residence'])->name('Residence');
+
+    Route::get('/БЦ-ЭЛЕКТРО',[ProjectController::class, 'Elektro'])->name('Elektro');
 });

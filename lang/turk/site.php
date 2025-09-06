@@ -18,5 +18,10 @@ return[
         'professional' => 'Profesyonel ekip',
         'professionalText' => 'Uzun yıllara dayanan deneyime sahip yüksek nitelikli uzmanlar',
         'Successfully' => 'Tamamlanmış projeler',
+        'text_projects' => 'Tamamlanmış projelerimizle gurur duyuyoruz, bunlar inşaatta yüksek kaliteyi ve profesyonelliği göstermektedir.',
+        'svyaz' => 'Bizimle iletişime geçin',
+        'svyazText' => 'Eğer sorularınız veya önerileriniz varsa, bize iletebilirsiniz. Size mutlaka cevap vereceğiz.',
+        'zvanok' => 'Bizi Arayın',
+
 
 ];

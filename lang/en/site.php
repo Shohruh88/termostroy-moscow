@@ -20,4 +20,9 @@ return [
         'professional' => 'Professional team',
         'professionalText' => 'Highly qualified specialists with many years of experience',
         'Successfully' => 'Completed projects',
+        'text_projects' => 'We are proud of our completed projects, which demonstrate high quality and professionalism in construction.',
+        'svyaz' => 'Contact us',
+        'svyazText' => 'If you have any questions or suggestions, you can send them to us. We will definitely reply to you.',
+        'zvanok' => 'Call Us',
+
 ];

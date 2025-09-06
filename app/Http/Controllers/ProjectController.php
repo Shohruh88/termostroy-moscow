@@ -30,4 +30,16 @@ class ProjectController extends Controller
      public function Arcus(){
         return view('project.arcus');
     }
+
+    public function Sreda(){
+        return view('project.sreda');
+    }
+
+     public function Residence(){
+        return view('project.residence');
+    }
+
+     public function Elektro(){
+        return view('project.elektro');
+    }
 }

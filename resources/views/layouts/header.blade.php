@@ -8,10 +8,10 @@
         class="relative max-w-8xl w-full flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 mx-auto">
        <div class="relative lg:col-span-3 flex items-center justify-between w-full lg:w-auto z-50">
             <a class="relative z-50" href="/" aria-label="Preline">
-                <img class="logo-img relative z-50" width="96" height="72" src="/images/logo-termo.png" alt="Logo">
+                <img class="logo-img relative z-50" width="130" height="" src="/images/logo-termo.png" alt="Logo">
             </a>
             <button id="mobile-menu-toggle" type="button"
-                class="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lime-400"
+                class="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lime-400"
                 aria-controls="mobile-menu" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="h-6 w-6" id="mobile-menu-open-icon" xmlns="http://www.w3.org/2000/svg" fill="none"

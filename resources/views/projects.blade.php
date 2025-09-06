@@ -9,11 +9,11 @@
     <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center mb-16">
-            <h2 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-4">Завершенные проекты</h2>
+            <h2 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-4">{{ __('site.Successfully') }}</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Мы гордимся нашими реализованными проектами, которые демонстрируют высокое качество и профессионализм в строительстве
-            </p>
+                {{ __('site.text_projects') }}
+        </p>
         </div>
 
         <!-- Projects Grid -->
@@ -95,34 +95,38 @@
             </div>
 
             <!-- Commercial Complex -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                <div class="aspect-[4/3] bg-gradient-to-br from-blue-600 to-purple-700 relative">
+           <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
+                                     style="background-image: url('{{ asset('images/ЖК СРЕДА/888.jpg') }}')">>
+                    
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="text-center text-white">
                             <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"/>
+                                    <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-6a1 1 0 00-1-1H9a1 1 0 00-1 1v6a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/>
                                 </svg>
                             </div>
-                            <p class="text-sm opacity-75">Скоро</p>
+                            <p class="text-sm opacity-75">Офисный комплекс</p>
                         </div>
                     </div>
                     
                     <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
                         <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="inline-block bg-orange-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">ТОРГОВЫЙ ЦЕНТР</span>
-                            <h3 class="text-2xl font-bold mb-2">Metropolitan Mall</h3>
-                            <p class="text-sm opacity-90 mb-4">В разработке • 2025</p>
+                            <span class="inline-block bg-teal-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">ОФИСНЫЙ ЦЕНТР</span>
+                            <h3 class="text-2xl font-bold mb-2">Здание Сбербанк-Сити</h3>
+                            <p class="text-sm opacity-90 mb-4">Адрес Кутузовский проспект, д.32</p>
                             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <button class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold opacity-50 cursor-not-allowed">
-                                    В разработке
-                                </button>
+                                <a href="{{ route('Sreda') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                    Подробнее
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- Office Complex -->
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                 <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
@@ -156,7 +160,7 @@
                     </div>
                 </div>
             </div>
-
+                <!-- arcus -->
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                 <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
                                      style="background-image: url('{{ asset('images/arcus/Arcus.webp') }}')">>
@@ -190,6 +194,111 @@
                     </div>
                 </div>
             </div>
+
+              <!-- arcus -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
+                                     style="background-image: url('{{ asset('images/arcus/Arcus.webp') }}')">>
+                    
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-6a1 1 0 00-1-1H9a1 1 0 00-1 1v6a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <p class="text-sm opacity-75">Офисный комплекс</p>
+                        </div>
+                    </div>
+
+                    <!-- new -->
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
+                        <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
+                            <span class="inline-block bg-teal-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">БИЗНЕС-ЦЕНТР</span>
+                            <h3 class="text-2xl font-bold mb-2">Бизнес Центр Arcus III</h3>
+                            <p class="text-sm opacity-90 mb-4">Москва, Ленинградский пр-кт, д. 37А, кор. 4</p>
+                            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <a href="{{ route('Arcus') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                    Подробнее
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Residence -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
+                                     style="background-image: url('{{ asset('images/Residence/1.png') }}')">>
+                    
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-6a1 1 0 00-1-1H9a1 1 0 00-1 1v6a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <p class="text-sm opacity-75">Офисный комплекс</p>
+                        </div>
+                    </div>
+
+                    <!-- new -->
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
+                        <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
+                            <span class="inline-block bg-teal-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">БИЗНЕС-ЦЕНТР</span>
+                            <h3 class="text-2xl font-bold mb-2">ЖК Бизнес Класса «Monet Residence»</h3>
+                            <p class="text-sm opacity-90 mb-4">Адрес 2-я Звенигородская ул., 11</p>
+                            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <a href="{{ route('Residence') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                    Подробнее
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
+                                     style="background-image: url('{{ asset('images/Residence/1.png') }}')">>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-6a1 1 0 00-1-1H9a1 1 0 00-1 1v6a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <p class="text-sm opacity-75">Офисный комплекс</p>
+                        </div>
+                    </div>
+                    <!-- new -->
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
+                        <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
+                            <span class="inline-block bg-teal-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">БИЗНЕС-ЦЕНТР</span>
+                            <h3 class="text-2xl font-bold mb-2">ЖК Бизнес Класса «Monet Residence»</h3>
+                            <p class="text-sm opacity-90 mb-4">Адрес 2-я Звенигородская ул., 11</p>
+                            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <a href="{{ route('Residence') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                    Подробнее
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
 
         <!-- Stats Section -->

@@ -5,14 +5,14 @@
         <ul class="space-y-2">
           <li><a href="{{ route('aboutUs') }}" class="hover:underline">О нас</a></li>
           <li><a href="#" class="hover:underline">Вакансии</a></li>
-          <li><a href="#" class="hover:underline">Блог</a></li>
+          <li><a href="{{ route('projects') }}" class="hover:underline">Блог</a></li>
         </ul>
       </div>
       <div>
         <h2 class="text-lg font-semibold mb-4">Поддержка</h2>
         <ul class="space-y-2">
           <li><a href="{{ route('contact') }}" class="hover:underline">Контакты</a></li>
-          <li><a href="#" class="hover:underline">Вопросы и ответы</a></li>
+          <li><a href="{{ route('contact') }}" class="hover:underline">Вопросы и ответы</a></li>
           <li><a href="#" class="hover:underline">Политика конфиденциальности</a></li>
         </ul>
       </div>
@@ -20,16 +20,16 @@
         <h2 class="text-lg font-semibold mb-4">Услуги</h2>
         <ul class="space-y-2">
           <li><a href="{{ route('projects') }}" class="hover:underline">ПРОЕКТИРОВАНИЕ</a></li>
-          <li><a href="#" class="hover:underline">ИНЖЕНЕРИЯ</a></li>
+          <li><a href="{{ route('inzhenernye') }}" class="hover:underline">ИНЖЕНЕРИЯ</a></li>
           <li><a href="#" class="hover:underline">ЭКСПЛУАТАЦИЯ</a></li>
-          <li><a href="#" class="hover:underline">РАБОТЫ ПОД КЛЮЧ</a></li>
+          <li><a href="{{ route('aboutUs') }}" class="hover:underline">РАБОТЫ ПОД КЛЮЧ</a></li>
         </ul>
       </div>
       <div>
         <h2 class="text-lg font-semibold mb-4">Мы в соцсетях</h2>
         <div class="flex space-x-4">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://web.telegram.org/k/"><i class="fab fa-telegram"></i></a>
           <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
