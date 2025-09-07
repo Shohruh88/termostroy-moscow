@@ -2,6 +2,8 @@
 @section('title', 'О компании')
 
 @section('content')
+<br>
+<div style="background-color:aliceblue ">
     <!-- Hero Section -->
     <section class="text-center py-16 bg-gradient-to-br from-gray-50 to-white">
         <div class="max-w-4xl mx-auto px-4">
@@ -38,7 +40,7 @@
 
                 <!-- Image -->
                 <div class="relative">
-                    <img src="{{ asset('images/tower') }}" alt="Наши проекты" class="rounded-lg shadow-xl w-full">
+                    <img src="{{ asset('images/logo-termo.png') }}" alt="Наши проекты" class="rounded-lg shadow-xl w-full">
                     <div class="absolute inset-0 bg-gradient-to-tr from-lime-400/20 to-transparent rounded-lg"></div>
                 </div>
             </div>
@@ -100,7 +102,7 @@
     </section>
 
     <!-- Contact CTA -->
-    <div class="relative bg-cover bg-center bg-no-repeat min-h-[400px]" style="background-image: url('/images/moscow-city.jpg');">
+    <div class="relative bg-cover bg-center bg-no-repeat min-h-[400px]" style="background-image: url('/images/logo-termo.png');">
         <div class="bg-black bg-opacity-70 min-h-[400px] flex items-center">
             <div class="max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto py-16 text-white text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">Готовы обсудить ваш проект?</h2>
@@ -124,3 +126,4 @@
         </div>
     </div>
 @endsection
+</div>
