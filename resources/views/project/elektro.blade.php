@@ -22,12 +22,12 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
             <!-- Left Image -->
             <div class="space-y-6">
-                <img src="{{ asset('images/ЖК СРЕДА/777.webp') }}" alt="ЖК Среда" class="w-full rounded-lg shadow-lg">
+                <img src="{{ asset('images/БЦ ЭЛЕКТРО/12.webp') }}" alt="ЖК Среда" class="w-full rounded-lg shadow-lg">
                 <div class="grid grid-cols-2 gap-4">
-                    <img src="{{ asset('images/ЖК СРЕДА/1.webp') }}" alt="ЖК Среда фасад" class="w-full rounded-lg shadow-md">
-                    <img src="{{ asset('images/ЖК СРЕДА/14.jpg') }}" alt="ЖК Среда двор" class="w-full rounded-lg shadow-md">
-                    <img src="{{ asset('images/ЖК СРЕДА/777.webp') }}" alt="ЖК Среда корпус" class="w-full rounded-lg shadow-md">
-                    <img src="{{ asset('images/ЖК СРЕДА/3333.webp') }}" alt="ЖК Среда инфраструктура" class="w-full rounded-lg shadow-md">
+                    <img src="{{ asset('images/БЦ ЭЛЕКТРО/12.webp') }}" alt="ЖК Среда фасад" class="w-full rounded-lg shadow-md">
+                    <img src="{{ asset('images/БЦ ЭЛЕКТРО/11.webp') }}" alt="ЖК Среда двор" class="w-full rounded-lg shadow-md">
+                    <img src="{{ asset('images/БЦ ЭЛЕКТРО/13.webp') }}" alt="ЖК Среда корпус" class="w-full rounded-lg shadow-md">
+                    <img src="{{ asset('images/БЦ ЭЛЕКТРО/22.jpg') }}" alt="ЖК Среда инфраструктура" class="w-full rounded-lg shadow-md">
                 </div>
             </div>
         
@@ -120,8 +120,8 @@
                     <div class="bg-white p-6 rounded-lg shadow-md">
                         <h3 class="text-xl font-semibold text-gray-800 mb-4">Концепция проекта</h3>
                         <p class="text-gray-600 leading-relaxed">
-                            Бизнес-центр «Электро» представляет собой фешенебельную постройку класса «A+», внутри которой располагаются офисы высокого качества. 
-                            В процессе его возведения использовались прогрессивные технологии, поэтому условия пребывания в пространстве являются максимально комфортными. 
+                                Бизнес-центр «Электро» представляет собой фешенебельную постройку класса «A+», внутри которой располагаются офисы высокого качества. 
+                                В процессе его возведения использовались прогрессивные технологии, поэтому условия пребывания в пространстве являются максимально комфортными. 
                         </p>
                     </div>
 
@@ -270,12 +270,12 @@
         <div class="mb-16">
             <h2 class="text-3xl font-bold mb-8 text-gray-800 text-center">Галерея проекта</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <img src="{{ asset('images/ЖК СРЕДА/3333.webp') }}" alt="ЖК Среда" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <img src="{{ asset('images/ЖК СРЕДА/777.webp') }}" alt="ЖК Среда фасад" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <img src="{{ asset('images/ЖК СРЕДА/5555.jpg') }}" alt="ЖК Среда двор" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <img src="{{ asset('images/ЖК СРЕДА/sreda-moskva-jk-689136682-7.jpg') }}" alt="ЖК Среда корпус" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/БЦ ЭЛЕКТРО/25.jpg') }}" alt="ЖК Среда" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/БЦ ЭЛЕКТРО/23.jpg') }}" alt="ЖК Среда фасад" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/БЦ ЭЛЕКТРО/26.jpg') }}" alt="ЖК Среда двор" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/БЦ ЭЛЕКТРО/24.png') }}" alt="ЖК Среда корпус" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <img src="{{ asset('images/stroy/45.jpg') }}" alt="ЖК Среда инфраструктура" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <img src="{{ asset('images/ЖК СРЕДА/666.jpg') }}" alt="ЖК Среда детская площадка" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <img src="{{ asset('images/БЦ ЭЛЕКТРО/12.webp') }}" alt="ЖК Среда детская площадка" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <img src="{{ asset('images/stroy/IMG_0332.jpg') }}" alt="ЖК Среда входная группа" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <img src="{{ asset('images/stroy/37.JPG') }}" alt="ЖК Среда благоустройство" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <img src="{{ asset('images/stroy/38.JPG') }}" alt="ЖК Среда внутренний двор" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -286,8 +286,8 @@
         <div class="bg-gradient-to-r from-lime-50 to-green-50 p-8 rounded-lg text-center">
             <h2 class="text-2xl font-bold text-gray-800 mb-4">Интересует качественное жилье?</h2>
             <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
-                ЖК "Среда" предлагает современные решения для комфортного проживания с развитой инфраструктурой 
-                и высоким качеством инженерных систем, реализованных нашей компанией.
+               Бизнес-центр «Электро» представляет собой фешенебельную постройку класса «A+», внутри которой располагаются офисы высокого качества. 
+             В процессе его возведения использовались прогрессивные технологии, поэтому условия пребывания в пространстве являются максимально комфортными. 
             </p>
         </div>
 

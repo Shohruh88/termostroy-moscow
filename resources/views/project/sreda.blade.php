@@ -6,7 +6,15 @@
 <br>
 <br>
       
-    
+    <div class="w-full h-screen">
+            <iframe 
+                src="https://vis_on.viewin360.co/share/collection/7cJ5H?logo=0&info=0&fs=1&vr=1&sd=1&initload=1&thumbs=0" 
+                class="w-full h-full"
+                style="border:0;" 
+                allow="xr-spatial-tracking; gyroscope; accelerometer; fullscreen" 
+                allowfullscreen>
+            </iframe>
+     </div>
    
 
     <div class="container mx-auto ">

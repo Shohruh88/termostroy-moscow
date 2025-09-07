@@ -7,7 +7,7 @@
         <div class="max-w-4xl mx-auto px-4">
             <h1 class="text-5xl font-bold text-gray-900 mb-6">О компании Termostroy</h1>
             <p class="text-xl text-gray-600 leading-relaxed">
-                Профессиональные решения в области инженерных систем с 2008 года
+                Профессиональные решения в области инженерных систем с 2005 года
             </p>
         </div>
     </section>
@@ -28,7 +28,7 @@
                     <div>
                         <h3 class="text-2xl font-semibold text-gray-900 mb-4">Наш опыт</h3>
                         <p class="text-gray-700 leading-relaxed mb-4">
-                            Группа компаний Termostroy работает с 2008 года. Мы специализируемся на проектировании, монтаже и обслуживании систем кондиционирования и вентиляции, а также систем отопления и горячего водоснабжения.
+                            Группа компаний Termostroy работает с 2005 года. Мы специализируемся на проектировании, монтаже и обслуживании систем кондиционирования и вентиляции, а также систем отопления и горячего водоснабжения.
                         </p>
                         <p class="text-gray-700 leading-relaxed">
                             Сегодня мы являемся одним из лидеров рынка ОВиВК в Москве, имеем большое количество компаний-партнеров и клиентов в различных сферах бизнеса.
@@ -38,7 +38,7 @@
 
                 <!-- Image -->
                 <div class="relative">
-                    <img src="{{ asset('images/page_2.png') }}" alt="Наши проекты" class="rounded-lg shadow-xl w-full">
+                    <img src="{{ asset('images/tower') }}" alt="Наши проекты" class="rounded-lg shadow-xl w-full">
                     <div class="absolute inset-0 bg-gradient-to-tr from-lime-400/20 to-transparent rounded-lg"></div>
                 </div>
             </div>

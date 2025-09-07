@@ -265,27 +265,17 @@
                 </div>
             </div>
             
+           <!-- Elektro -->
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                 <div class="aspect-[4/3] bg-gradient-to-br from-teal-600 to-cyan-700 relative"
-                                     style="background-image: url('{{ asset('images/Residence/1.png') }}')">>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="text-center text-white">
-                            <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-6a1 1 0 00-1-1H9a1 1 0 00-1 1v6a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/>
-                                </svg>
-                            </div>
-                            <p class="text-sm opacity-75">Офисный комплекс</p>
-                        </div>
-                    </div>
-                    <!-- new -->
+                                     style="background-image: url('{{ asset('images/elektro/1.png') }}')">>
                     <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
                         <div class="transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
                             <span class="inline-block bg-teal-600 text-xs px-3 py-1 rounded-full mb-3 font-semibold">БИЗНЕС-ЦЕНТР</span>
-                            <h3 class="text-2xl font-bold mb-2">ЖК Бизнес Класса «Monet Residence»</h3>
-                            <p class="text-sm opacity-90 mb-4">Адрес 2-я Звенигородская ул., 11</p>
+                            <h3 class="text-2xl font-bold mb-2">БЦ ЭЛЕКТРО </h3>
+                            <p class="text-sm opacity-90 mb-4">Московский просп., 156, Санкт-Петербург</p>
                             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <a href="{{ route('Residence') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                <a href="{{ route('Elektro') }}" class="inline-flex items-center bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
                                     Подробнее
                                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>

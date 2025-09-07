@@ -616,6 +616,16 @@
             </section>
             <!-- Nash uslugi  --->
 
+        <div class="w-full h-screen">
+            <iframe 
+                src="https://vis_on.viewin360.co/share/collection/7cJ5H?logo=0&info=0&fs=1&vr=1&sd=1&initload=1&thumbs=0" 
+                class="w-full h-full"
+                style="border:0;" 
+                allow="xr-spatial-tracking; gyroscope; accelerometer; fullscreen" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
             <!-- FAQ -->
   <!-- Premium FAQ Section - Enterprise Level Design -->
 <div class="relative bg-gradient-to-br from-slate-50 via-white to-blue-50 py-20 overflow-hidden" id="FAQ">
